@@ -1511,6 +1511,16 @@
 	)
 	(bus
 		(pts
+			(xy 148.59 46.99) (xy 158.75 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12a56b76-3c5b-4b6e-a068-78b9e055cf4f")
+	)
+	(bus
+		(pts
 			(xy 62.23 101.6) (xy 69.85 101.6)
 		)
 		(stroke
@@ -1528,6 +1538,16 @@
 			(type default)
 		)
 		(uuid "2bfdd862-4d02-431c-8b67-1f175e682518")
+	)
+	(bus
+		(pts
+			(xy 158.75 33.02) (xy 144.78 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3728d9c1-9eea-4333-bbfa-af76b975fd4e")
 	)
 	(wire
 		(pts
@@ -1548,6 +1568,16 @@
 			(type default)
 		)
 		(uuid "4388f85f-fa8b-4b76-9a96-e962dcff6fe8")
+	)
+	(bus
+		(pts
+			(xy 95.25 33.02) (xy 121.92 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47024ac0-7b9d-4657-b4c3-db33cc9f0471")
 	)
 	(wire
 		(pts
@@ -1598,6 +1628,16 @@
 			(type default)
 		)
 		(uuid "5beadbd9-3bf5-4594-8f07-9209bc56eab0")
+	)
+	(bus
+		(pts
+			(xy 158.75 46.99) (xy 158.75 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "622546d2-c4f4-4e07-b93a-2e4dc0542a16")
 	)
 	(wire
 		(pts
@@ -3130,7 +3170,7 @@
 		)
 	)
 	(sheet
-		(at 157.48 36.83)
+		(at 121.92 29.21)
 		(size 22.86 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3146,7 +3186,7 @@
 		)
 		(uuid "41800b67-536b-40f6-9870-7d633bd400f6")
 		(property "Sheetname" "16:1_decoder"
-			(at 157.48 36.1184 0)
+			(at 121.92 28.4984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3157,7 +3197,7 @@
 			)
 		)
 		(property "Sheetfile" "16_to_1_decoder.kicad_sch"
-			(at 157.48 45.0346 0)
+			(at 121.92 37.4146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3168,23 +3208,23 @@
 			)
 		)
 		(pin "a[0..3]" input
-			(at 157.48 40.64 180)
+			(at 144.78 33.02 0)
 			(uuid "405998d9-bf80-42cb-9166-cac52093a300")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "d[0..15]" output
-			(at 180.34 40.64 0)
+			(at 121.92 33.02 180)
 			(uuid "dffdd08b-384a-4ed0-9017-f5982e323102")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
@@ -3196,7 +3236,7 @@
 		)
 	)
 	(sheet
-		(at 115.57 35.56)
+		(at 121.92 44.45)
 		(size 26.67 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3212,7 +3252,7 @@
 		)
 		(uuid "60e98e51-c3b8-48d8-9b0b-b1a7cf98069d")
 		(property "Sheetname" "addr_counter"
-			(at 115.57 34.8484 0)
+			(at 121.92 43.7384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3223,7 +3263,7 @@
 			)
 		)
 		(property "Sheetfile" "addr_counter.kicad_sch"
-			(at 115.57 45.0346 0)
+			(at 121.92 53.9246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3234,7 +3274,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 115.57 35.56 0)
+			(at 121.92 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3245,7 +3285,7 @@
 			)
 		)
 		(pin "drive_a[0..3]" output
-			(at 142.24 38.1 0)
+			(at 148.59 46.99 0)
 			(uuid "04457c89-908f-4dd8-9794-e599fc70d8d5")
 			(effects
 				(font
@@ -3255,7 +3295,7 @@
 			)
 		)
 		(pin "~{clk}" input
-			(at 115.57 38.1 180)
+			(at 121.92 46.99 180)
 			(uuid "8a28f7e3-a009-4fe1-886c-2c24548f88c9")
 			(effects
 				(font
@@ -3265,7 +3305,7 @@
 			)
 		)
 		(pin "sense_a[0..2]" output
-			(at 142.24 40.64 0)
+			(at 148.59 49.53 0)
 			(uuid "1ae3825c-9e75-473c-abd4-da837c43bc21")
 			(effects
 				(font
@@ -3275,7 +3315,7 @@
 			)
 		)
 		(pin "clr" input
-			(at 115.57 40.64 180)
+			(at 121.92 49.53 180)
 			(uuid "5fd1cd7f-28bf-4fc9-a615-06be3929ce3a")
 			(effects
 				(font
