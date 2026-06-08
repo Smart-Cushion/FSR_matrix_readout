@@ -648,7 +648,7 @@
         "uuid": "6dca5e5c-f676-465d-98c9-14af6047a226"
       }
     ],
-    "used_designators": "C33-50,#PWR84-89,U21",
+    "used_designators": "#PWR90-98,C51-52,U22,R17-20",
     "variants": []
   },
   "sheets": [
@@ -671,6 +671,14 @@
     [
       "60e98e51-c3b8-48d8-9b0b-b1a7cf98069d",
       "addr_counter"
+    ],
+    [
+      "03798c46-1108-4316-991b-16e4f41f6d2c",
+      "backend_mux"
+    ],
+    [
+      "f3fd7816-5f6a-4bef-80e9-103b180fac0f",
+      "dynamic_gain_opamp"
     ]
   ],
   "text_variables": {},
