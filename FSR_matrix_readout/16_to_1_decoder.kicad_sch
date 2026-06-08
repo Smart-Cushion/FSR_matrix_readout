@@ -1076,6 +1076,12 @@
 		(uuid "0ccad5f0-db11-49e3-a807-e882abfa92ff")
 	)
 	(junction
+		(at 116.84 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10fd5083-307c-4ca3-8720-4b16c7eb6e1f")
+	)
+	(junction
 		(at 80.01 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1092,6 +1098,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6acd750f-eb4b-4fc8-9cca-c64478e101a8")
+	)
+	(junction
+		(at 118.11 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e86b2e0-d39a-447c-86d1-20069466c163")
 	)
 	(junction
 		(at 116.84 49.53)
@@ -1118,16 +1130,8 @@
 		(uuid "d8d12012-f70e-47ac-846a-56206730954c")
 	)
 	(no_connect
-		(at 111.76 82.55)
-		(uuid "753d9fd5-27b1-4188-bcc2-a90d523dfbc2")
-	)
-	(no_connect
 		(at 92.71 120.65)
 		(uuid "7d88a3d8-23a5-4c3d-a617-31cd97a9e1d2")
-	)
-	(no_connect
-		(at 111.76 46.99)
-		(uuid "ddc1074d-ceec-46fc-889c-705890d291b9")
 	)
 	(bus_entry
 		(at 133.35 49.53)
@@ -1328,6 +1332,26 @@
 			(type default)
 		)
 		(uuid "062b3af9-1795-4990-be0b-e7b2c83b567f")
+	)
+	(wire
+		(pts
+			(xy 113.03 43.18) (xy 116.84 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06774e02-8f04-4c94-9c21-ea66b77313c9")
+	)
+	(wire
+		(pts
+			(xy 113.03 46.99) (xy 113.03 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "079c3e5d-03ef-4759-80dc-ab2c159e1db0")
 	)
 	(wire
 		(pts
@@ -1561,6 +1585,26 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 78.74) (xy 118.11 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72390e36-3da1-44f9-814b-da61f9908d0f")
+	)
+	(wire
+		(pts
+			(xy 111.76 46.99) (xy 113.03 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7321615c-a165-4c4b-b294-d65d6dbd4717")
+	)
+	(wire
+		(pts
 			(xy 88.9 97.79) (xy 91.44 97.79)
 		)
 		(stroke
@@ -1698,6 +1742,16 @@
 			(type default)
 		)
 		(uuid "b3b7bf96-e826-45a9-92cb-c6ca4c60fe04")
+	)
+	(wire
+		(pts
+			(xy 114.3 82.55) (xy 111.76 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b63cd40c-1591-405d-8858-ed9b468e1420")
 	)
 	(wire
 		(pts
@@ -1848,6 +1902,16 @@
 			(type default)
 		)
 		(uuid "ec5ab059-e298-4a33-b54b-fac944fc3be5")
+	)
+	(wire
+		(pts
+			(xy 114.3 82.55) (xy 114.3 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f42372df-1ee7-424f-8164-731d67826bb4")
 	)
 	(wire
 		(pts
@@ -2466,7 +2530,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66357e80-80d1-4c9f-92ea-65ac66648105")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR056"
 			(at 85.09 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2522,12 +2586,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f9bdf752-a283-4211-8932-862dc9e8b250")
+			(uuid "f9bdf752-a283-4211-8932-862dc9e8b251")
 		)
 		(instances
 			(project "FSR_matrix_readout"
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/41800b67-536b-40f6-9870-7d633bd400f6"
-					(reference "#PWR?")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -3201,10 +3265,6 @@
 		)
 		(instances
 			(project "FSR_matrix_readout"
-				(path "/6dca5e5c-f676-465d-98c9-14af6047a226"
-					(reference "U16")
-					(unit 1)
-				)
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/41800b67-536b-40f6-9870-7d633bd400f6"
 					(reference "U16")
 					(unit 1)
@@ -3224,7 +3284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8eec983-2f51-4111-b71b-c561f4ca7d91")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR057"
 			(at 86.36 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -3280,12 +3340,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f9bdf752-a283-4211-8932-862dc9e8b250")
+			(uuid "f9bdf752-a283-4211-8932-862dc9e8b252")
 		)
 		(instances
 			(project "FSR_matrix_readout"
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/41800b67-536b-40f6-9870-7d633bd400f6"
-					(reference "#PWR?")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -3442,10 +3502,6 @@
 		)
 		(instances
 			(project "FSR_matrix_readout"
-				(path "/6dca5e5c-f676-465d-98c9-14af6047a226"
-					(reference "U14")
-					(unit 1)
-				)
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/41800b67-536b-40f6-9870-7d633bd400f6"
 					(reference "U14")
 					(unit 1)

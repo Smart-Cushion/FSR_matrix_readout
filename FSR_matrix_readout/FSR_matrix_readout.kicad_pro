@@ -648,7 +648,7 @@
         "uuid": "6dca5e5c-f676-465d-98c9-14af6047a226"
       }
     ],
-    "used_designators": "U1-17,#PWR1-11,C1-6,R1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -663,6 +663,10 @@
     [
       "0257cdfa-5088-43ef-b3f9-44ecadae8ca2",
       "frontend_mux"
+    ],
+    [
+      "bd0ecfe5-c384-4745-b841-51e834c1c1f6",
+      "sense_opamps"
     ]
   ],
   "text_variables": {},
