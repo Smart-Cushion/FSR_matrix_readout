@@ -648,7 +648,7 @@
         "uuid": "6dca5e5c-f676-465d-98c9-14af6047a226"
       }
     ],
-    "used_designators": "U22-25,#PWR59,#PWR66,#PWR72,#PWR78,#PWR99-125,R21-26,C53-63",
+    "used_designators": "U22-28,#PWR59,#PWR66,#PWR72,#PWR78,#PWR99-146,#FLG1,R21-28,C53-70",
     "variants": []
   },
   "sheets": [
@@ -683,6 +683,10 @@
     [
       "8e0ef234-4369-416e-96cd-abdf899d3500",
       "adc"
+    ],
+    [
+      "8a1936ee-bbc8-45c2-b1d1-45af2be9c99e",
+      "power"
     ]
   ],
   "text_variables": {},
