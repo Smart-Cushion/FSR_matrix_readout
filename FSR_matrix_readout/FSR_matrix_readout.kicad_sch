@@ -447,279 +447,16 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lcsc:NCD98010XMXTAG"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
+	)
+	(text "need add level shifter for this one"
+		(exclude_from_sim no)
+		(at 145.796 70.866 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
-			(property "Value" "NCD98010XMXTAG"
-				(at 0 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:X2QFN-8_L1.5-W1.5-P0.50-BL"
-				(at 0 -11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C895632.pdf"
-				(at 0 -13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "onsemi(安森美)"
-				(at 0 -16.51 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "NCD98010XMXTAG"
-				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C895632"
-				(at 0 -21.59 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Pre-ordered Products"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "NCD98010XMXTAG_0_1"
-				(rectangle
-					(start -7.62 6.35)
-					(end 7.62 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -6.35 5.08)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 3.81 0)
-					(length 2.54)
-					(name "CSN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 1.27 0)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 -1.27 0)
-					(length 2.54)
-					(name "CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 -3.81 0)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 -3.81 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 -1.27 180)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 1.27 180)
-					(length 2.54)
-					(name "VINP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 3.81 180)
-					(length 2.54)
-					(name "VINN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
 		)
+		(uuid "70e4bdf2-589b-4195-8c29-b1e7a3bb8197")
 	)
 	(no_connect
 		(at 36.83 147.32)
@@ -1075,6 +812,26 @@
 		)
 		(uuid "09a419b3-613b-488c-a3cf-c8baa529f63b")
 	)
+	(wire
+		(pts
+			(xy 140.97 91.44) (xy 153.67 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a2891f9-d994-49dd-a215-cea64a65531e")
+	)
+	(wire
+		(pts
+			(xy 186.69 91.44) (xy 196.85 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "119f73b7-e9cc-484f-97bf-25e813d6d3a8")
+	)
 	(bus
 		(pts
 			(xy 62.23 101.6) (xy 69.85 101.6)
@@ -1427,6 +1184,26 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 93.98) (xy 196.85 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e39d67ff-6115-40ef-8917-6ca7c6dd23d4")
+	)
+	(wire
+		(pts
+			(xy 140.97 93.98) (xy 153.67 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea9146e7-c9bc-46ae-a23b-23b46a67bbb0")
+	)
+	(wire
+		(pts
 			(xy 46.99 104.14) (xy 59.69 104.14)
 		)
 		(stroke
@@ -1754,268 +1531,6 @@
 			(justify left bottom)
 		)
 		(uuid "fc7728b6-46af-4c97-bae9-9445be9892c5")
-	)
-	(symbol
-		(lib_id "lcsc:NCD98010XMXTAG")
-		(at 229.87 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f33fd6d-95a1-4dea-8d51-4326289c4f30")
-		(property "Reference" "U2"
-			(at 229.87 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NCD98010XMXTAG"
-			(at 229.87 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:X2QFN-8_L1.5-W1.5-P0.50-BL"
-			(at 229.87 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C895632.pdf"
-			(at 229.87 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 229.87 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "onsemi(安森美)"
-			(at 229.87 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "NCD98010XMXTAG"
-			(at 229.87 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C895632"
-			(at 229.87 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "4e73e950-2807-4fcd-89e7-4e8aee1ae20b")
-		)
-		(pin "2"
-			(uuid "c1be1c64-3e0c-4e20-b0bc-f926ac0e37b5")
-		)
-		(pin "7"
-			(uuid "48796ac8-8b2b-40d7-bb61-0575991a9ed9")
-		)
-		(pin "1"
-			(uuid "534dfa31-038c-4855-897b-82fa74fb5913")
-		)
-		(pin "3"
-			(uuid "14ef636c-4f33-4e38-8af7-577ad14d796a")
-		)
-		(pin "4"
-			(uuid "81e580be-5e44-4a60-a67e-15fa9e85212a")
-		)
-		(pin "6"
-			(uuid "28b62e81-49c2-454c-8a2b-0b0d4a82cc5e")
-		)
-		(pin "8"
-			(uuid "c99da8c6-de1d-4d5b-8b4c-3a7f385c5be1")
-		)
-		(instances
-			(project "FSR_matrix_readout"
-				(path "/6dca5e5c-f676-465d-98c9-14af6047a226"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc:NCD98010XMXTAG")
-		(at 229.87 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "92bb3f84-8558-4244-875d-61ad5a4e7074")
-		(property "Reference" "U1"
-			(at 229.87 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NCD98010XMXTAG"
-			(at 229.87 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:X2QFN-8_L1.5-W1.5-P0.50-BL"
-			(at 229.87 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C895632.pdf"
-			(at 229.87 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 229.87 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "onsemi(安森美)"
-			(at 229.87 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "NCD98010XMXTAG"
-			(at 229.87 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C895632"
-			(at 229.87 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "9ed020a2-f374-4f45-bc88-dc0544a4a817")
-		)
-		(pin "2"
-			(uuid "382d4e34-f75f-4e31-b32b-87652e2182d1")
-		)
-		(pin "7"
-			(uuid "b99ce27b-1d26-4f86-a289-f4d3b230e0ba")
-		)
-		(pin "1"
-			(uuid "4c5278e1-d6b9-469b-94f1-19eccce614d9")
-		)
-		(pin "3"
-			(uuid "017a134a-83ae-4f18-84e6-0efc049da372")
-		)
-		(pin "4"
-			(uuid "1b315da0-1ccc-4459-9928-cdc551d7dce7")
-		)
-		(pin "6"
-			(uuid "afef3cd9-ae95-4c84-9efd-fdd67f01e135")
-		)
-		(pin "8"
-			(uuid "ece15d9d-4d3c-4d16-9bbc-220c065e9bf9")
-		)
-		(instances
-			(project "FSR_matrix_readout"
-				(path "/6dca5e5c-f676-465d-98c9-14af6047a226"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "lcsc:AFA07-S16FCC-00")
@@ -2666,6 +2181,112 @@
 		)
 	)
 	(sheet
+		(at 196.85 85.09)
+		(size 27.94 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8e0ef234-4369-416e-96cd-abdf899d3500")
+		(property "Sheetname" "adc"
+			(at 196.85 84.3784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "adc.kicad_sch"
+			(at 196.85 97.1046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "adc_~{cs}" input
+			(at 209.55 85.09 90)
+			(uuid "bd7f7fc3-cc70-4900-b44f-0dab8ba2fbcb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "adc_clk" input
+			(at 212.09 85.09 90)
+			(uuid "30eb3dcd-d167-448f-aa9a-877f3554e099")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "adc0_in" input
+			(at 196.85 91.44 180)
+			(uuid "7988f290-aff7-489f-a914-8320c05b715a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "adc1_in" input
+			(at 196.85 93.98 180)
+			(uuid "5830b76a-7055-45b6-af3a-6867b33d9d15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "adc0_out" output
+			(at 224.79 87.63 0)
+			(uuid "da8d095a-c6a0-4dfc-bd9a-8dedfe835dcb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "adc1_out" output
+			(at 224.79 90.17 0)
+			(uuid "2c16299b-34e6-40bc-a179-5a1b8ba1978b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 69.85 99.06)
 		(size 34.29 7.62)
 		(exclude_from_sim no)
@@ -2742,13 +2363,12 @@
 		)
 	)
 	(sheet
-		(at 154.94 87.63)
-		(size 31.75 15.24)
+		(at 153.67 85.09)
+		(size 33.02 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -2758,7 +2378,7 @@
 		)
 		(uuid "f3fd7816-5f6a-4bef-80e9-103b180fac0f")
 		(property "Sheetname" "dynamic_gain_opamp"
-			(at 154.94 86.9184 0)
+			(at 153.924 105.156 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2769,7 +2389,7 @@
 			)
 		)
 		(property "Sheetfile" "dynamic_gain_opamp.kicad_sch"
-			(at 154.94 103.4546 0)
+			(at 153.67 100.9146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2777,6 +2397,86 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "raw_sense0" input
+			(at 153.67 91.44 180)
+			(uuid "aa62e14e-b52d-4469-a409-a41dd2ddd0e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "raw_sense1" input
+			(at 153.67 93.98 180)
+			(uuid "d13bc24c-81b5-4568-9b3b-5edfe46f35f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_{g}" input
+			(at 153.67 96.52 180)
+			(uuid "10558b2b-2eec-4dc4-b320-4f18a3938760")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "adc0_in" output
+			(at 186.69 91.44 0)
+			(uuid "0fd893d9-3da6-4224-947e-86ddbd8691b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "adc1_in" output
+			(at 186.69 93.98 0)
+			(uuid "e986073b-100d-4b48-8e10-94cdb8bb02d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "pga_sck" input
+			(at 168.91 85.09 90)
+			(uuid "a53f85aa-386d-46d9-a42c-ade78bfaaac2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "pga_~{cs}" input
+			(at 172.72 85.09 90)
+			(uuid "7c93e85d-653b-4eb9-bc3c-20b0e210c3eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "pga_si" input
+			(at 175.26 85.09 90)
+			(uuid "a32a1ff2-4eb9-4c23-85f9-1e674ca5ae3b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

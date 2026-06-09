@@ -648,7 +648,7 @@
         "uuid": "6dca5e5c-f676-465d-98c9-14af6047a226"
       }
     ],
-    "used_designators": "#PWR90-98,C51-52,U22,R17-20",
+    "used_designators": "U22-25,#PWR59,#PWR66,#PWR72,#PWR78,#PWR99-125,R21-26,C53-63",
     "variants": []
   },
   "sheets": [
@@ -679,6 +679,10 @@
     [
       "f3fd7816-5f6a-4bef-80e9-103b180fac0f",
       "dynamic_gain_opamp"
+    ],
+    [
+      "8e0ef234-4369-416e-96cd-abdf899d3500",
+      "adc"
     ]
   ],
   "text_variables": {},
