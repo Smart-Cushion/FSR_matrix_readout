@@ -648,7 +648,7 @@
         "uuid": "6dca5e5c-f676-465d-98c9-14af6047a226"
       }
     ],
-    "used_designators": "U22-28,#PWR59,#PWR66,#PWR72,#PWR78,#PWR99-150,#FLG1,R21-28,C53-74",
+    "used_designators": "U22-28,#PWR59,#PWR66,#PWR72,#PWR78,#PWR99-152,#FLG1,R21-28,C53-76",
     "variants": []
   },
   "sheets": [

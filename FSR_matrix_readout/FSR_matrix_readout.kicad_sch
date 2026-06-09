@@ -448,6 +448,22 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "TODO: add bulk cap for power"
+		(exclude_from_sim no)
+		(at 189.23 33.782 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e7fa3a35-0ba6-4b8b-9f9c-5425a2248b6a")
+	)
+	(junction
+		(at 90.17 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "644c27f5-b124-4b32-bc0d-0f1e0d5ef4f8")
+	)
 	(junction
 		(at 90.17 67.31)
 		(diameter 0)
@@ -930,7 +946,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 67.31) (xy 90.17 96.52)
+			(xy 90.17 67.31) (xy 90.17 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1120,6 +1136,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 77.47) (xy 90.17 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c112be2e-a144-4b62-be9b-283c3975c619")
+	)
+	(wire
+		(pts
 			(xy 46.99 38.1) (xy 59.69 38.1)
 		)
 		(stroke
@@ -1227,6 +1253,26 @@
 			(type default)
 		)
 		(uuid "ea9146e7-c9bc-46ae-a23b-23b46a67bbb0")
+	)
+	(wire
+		(pts
+			(xy 157.48 77.47) (xy 157.48 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee655db0-90c4-49a9-a572-e82999ea03ec")
+	)
+	(wire
+		(pts
+			(xy 90.17 77.47) (xy 157.48 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8de43d6-e440-4717-b6c9-aa46cfb798f5")
 	)
 	(wire
 		(pts
@@ -2500,13 +2546,13 @@
 			)
 		)
 		(pin "V_{g}" input
-			(at 153.67 96.52 180)
+			(at 157.48 85.09 90)
 			(uuid "10558b2b-2eec-4dc4-b320-4f18a3938760")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "adc0_in" output

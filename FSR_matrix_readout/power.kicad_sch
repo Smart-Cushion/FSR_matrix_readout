@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "25da62d2-f867-4a53-83cf-3c71cae517e4")
+	(uuid "8bff01c9-fda1-4bca-8bae-596d04f28ace")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Amplifier_Operational:LM321"
@@ -1250,10 +1250,16 @@
 		(uuid "2fa99f56-7b22-4226-a820-609ff30070ec")
 	)
 	(junction
+		(at 162.56 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "678d0f29-76db-48c3-b35c-3bdf8fa6541a")
+	)
+	(junction
 		(at 152.4 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6b78f644-8d7b-4798-8bfd-5cc97b625b88")
+		(uuid "68b5f4b7-8f59-489d-9f30-b395e6b272e5")
 	)
 	(junction
 		(at 142.24 67.31)
@@ -1375,6 +1381,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 77.47) (xy 167.64 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "683eb3dd-9bde-4138-84fc-9795638b4540")
+	)
+	(wire
+		(pts
 			(xy 69.85 63.5) (xy 72.39 63.5)
 		)
 		(stroke
@@ -1455,7 +1471,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 77.47) (xy 157.48 77.47)
+			(xy 152.4 77.47) (xy 162.56 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1525,7 +1541,7 @@
 	)
 	(hierarchical_label "V_{g}"
 		(shape output)
-		(at 157.48 77.47 0)
+		(at 167.64 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1914,6 +1930,87 @@
 				)
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/8a1936ee-bbc8-45c2-b1d1-45af2be9c99e"
 					(reference "U25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 162.56 80.01 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "79b7c797-1589-4fc5-bf1a-7551c1ad5275")
+		(property "Reference" "C76"
+			(at 156.464 79.502 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 156.718 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 162.56 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fbfd441a-95fa-44ba-ba8c-3864228cbfc0")
+		)
+		(pin "2"
+			(uuid "6b4389ca-4381-4bc7-9052-10cd29f5580e")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/8a1936ee-bbc8-45c2-b1d1-45af2be9c99e"
+					(reference "C76")
 					(unit 1)
 				)
 			)
@@ -2479,6 +2576,84 @@
 				)
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/8a1936ee-bbc8-45c2-b1d1-45af2be9c99e"
 					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 162.56 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5dba07e-5896-4619-9ffa-a66992c8bcce")
+		(property "Reference" "#PWR0152"
+			(at 162.56 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56a519a6-c91b-4ff7-8cb6-ca8fc38803c9")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/8a1936ee-bbc8-45c2-b1d1-45af2be9c99e"
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)

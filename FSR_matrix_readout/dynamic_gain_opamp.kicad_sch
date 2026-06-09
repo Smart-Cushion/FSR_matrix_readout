@@ -1607,6 +1607,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 69.85) (xy 34.29 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85de4bf0-913c-4540-8256-8bbfed2f4005")
+	)
+	(wire
+		(pts
 			(xy 67.31 114.3) (xy 72.39 114.3)
 		)
 		(stroke
@@ -1654,6 +1664,16 @@
 			(type default)
 		)
 		(uuid "9a38f9b4-69c3-4607-acad-1837802905bd")
+	)
+	(wire
+		(pts
+			(xy 34.29 78.74) (xy 34.29 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b5d165a-f5ee-4cba-8fc3-d1ad33544af5")
 	)
 	(wire
 		(pts
@@ -1922,12 +1942,12 @@
 	)
 	(hierarchical_label "V_{g}"
 		(shape input)
-		(at 64.77 71.12 180)
+		(at 34.29 69.85 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "bed11f22-aa39-4ec9-8e81-298243766232")
 	)
@@ -2493,6 +2513,87 @@
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/f3fd7816-5f6a-4bef-80e9-103b180fac0f"
 					(reference "U22")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 34.29 76.2 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1c878bbb-0736-4b86-87c0-a9ed3658e2a1")
+		(property "Reference" "C75"
+			(at 31.496 77.724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 31.496 75.184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 34.29 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ecdf1f93-610b-4e0b-b3d1-98310fd6e145")
+		)
+		(pin "1"
+			(uuid "49236332-3c60-4bfb-b2fc-5e3aece8b515")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/f3fd7816-5f6a-4bef-80e9-103b180fac0f"
+					(reference "C75")
+					(unit 1)
 				)
 			)
 		)
@@ -3717,6 +3818,85 @@
 			(project "FSR_matrix_readout"
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/f3fd7816-5f6a-4bef-80e9-103b180fac0f"
 					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 34.29 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0b379fe-6205-4a6e-b4f4-5fcfe5c388db")
+		(property "Reference" "#PWR0151"
+			(at 34.29 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.2901 83.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 34.29 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "887455bc-51fb-4a60-8d4b-01372d2ca171")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/f3fd7816-5f6a-4bef-80e9-103b180fac0f"
+					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
