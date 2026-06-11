@@ -1061,7 +1061,7 @@
 	)
 	(text "3:8 decoder, inverted\nuse 5v power supply"
 		(exclude_from_sim no)
-		(at 117.602 32.004 0)
+		(at 118.11 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1325,7 +1325,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9566 93.98) (xy 91.44 93.98)
+			(xy 88.9 93.98) (xy 91.44 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2094,7 +2094,7 @@
 		(uuid "82d0db81-dd4d-4eee-bbf9-ceeaf6216701")
 	)
 	(label "~{a3}"
-		(at 88.9566 93.98 180)
+		(at 88.9 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)

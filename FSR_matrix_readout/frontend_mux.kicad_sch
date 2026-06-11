@@ -1148,6 +1148,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 55.88) (xy 40.64 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e9e0ecf-3e5c-4aec-a0a0-e74adf57a496")
+	)
+	(wire
+		(pts
 			(xy 165.1 157.48) (xy 161.29 157.48)
 		)
 		(stroke
@@ -2115,6 +2125,16 @@
 			(justify right bottom)
 		)
 		(uuid "417e6309-b1df-49dc-88d7-db4199b81b9d")
+	)
+	(label "V_{g}"
+		(at 40.64 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a93b2fb-64e4-4886-9207-a105baa58b5a")
 	)
 	(label "fsr_drive10"
 		(at 129.54 127 180)
