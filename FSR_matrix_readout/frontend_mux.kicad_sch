@@ -276,7 +276,9 @@
 						(type background)
 					)
 				)
-				(pin unspecified line
+			)
+			(symbol "RS2323XUTQK10_1_1"
+				(pin power_in line
 					(at 2.54 10.16 270)
 					(length 2.54)
 					(name "V+"
@@ -294,7 +296,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -12.7 3.81 0)
 					(length 2.54)
 					(name "NO1"
@@ -312,7 +314,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -12.7 -1.27 0)
 					(length 2.54)
 					(name "COM1"
@@ -330,7 +332,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -12.7 -3.81 0)
 					(length 2.54)
 					(name "IN1"
@@ -348,7 +350,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -12.7 1.27 0)
 					(length 2.54)
 					(name "NC1"
@@ -366,7 +368,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -2.54 10.16 270)
 					(length 2.54)
 					(name "GND"
@@ -384,7 +386,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 12.7 1.27 180)
 					(length 2.54)
 					(name "NC2"
@@ -402,7 +404,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 12.7 -3.81 180)
 					(length 2.54)
 					(name "IN2"
@@ -420,7 +422,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 12.7 -1.27 180)
 					(length 2.54)
 					(name "COM2"
@@ -438,7 +440,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 12.7 3.81 180)
 					(length 2.54)
 					(name "NO2"

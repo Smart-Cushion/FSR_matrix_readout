@@ -287,7 +287,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -10.16 7.62 0)
 					(length 2.54)
 					(name "A"
@@ -305,7 +305,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -10.16 5.08 0)
 					(length 2.54)
 					(name "B"
@@ -323,7 +323,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -10.16 2.54 0)
 					(length 2.54)
 					(name "C"
@@ -341,7 +341,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -10.16 0 0)
 					(length 2.54)
 					(name "~{G2A}"
@@ -359,7 +359,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -10.16 -2.54 0)
 					(length 2.54)
 					(name "~{G2B}"
@@ -377,7 +377,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -10.16 -5.08 0)
 					(length 2.54)
 					(name "G1"
@@ -395,7 +395,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at -10.16 -7.62 0)
 					(length 2.54)
 					(name "Y7"
@@ -413,7 +413,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -10.16 -10.16 0)
 					(length 2.54)
 					(name "GND"
@@ -431,7 +431,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 10.16 -10.16 180)
 					(length 2.54)
 					(name "Y6"
@@ -449,7 +449,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 10.16 -7.62 180)
 					(length 2.54)
 					(name "Y5"
@@ -467,7 +467,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 10.16 -5.08 180)
 					(length 2.54)
 					(name "Y4"
@@ -485,7 +485,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 10.16 -2.54 180)
 					(length 2.54)
 					(name "Y3"
@@ -503,7 +503,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 10.16 0 180)
 					(length 2.54)
 					(name "Y2"
@@ -521,7 +521,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 10.16 2.54 180)
 					(length 2.54)
 					(name "Y1"
@@ -539,7 +539,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 10.16 5.08 180)
 					(length 2.54)
 					(name "Y0"
@@ -557,7 +557,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 10.16 7.62 180)
 					(length 2.54)
 					(name "VCC"
@@ -575,7 +575,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 10.16 10.16 180)
 					(length 2.54)
 					(name "EP"
@@ -711,7 +711,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at -8.89 2.54 0)
 					(length 2.54)
 					(name "NC"
@@ -729,7 +729,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -8.89 0 0)
 					(length 2.54)
 					(name "A"
@@ -747,7 +747,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -8.89 -2.54 0)
 					(length 2.54)
 					(name "GND"
@@ -765,7 +765,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 8.89 -2.54 180)
 					(length 2.54)
 					(name "Y"
@@ -783,7 +783,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 8.89 2.54 180)
 					(length 2.54)
 					(name "VCC"

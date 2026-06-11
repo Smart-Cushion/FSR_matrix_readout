@@ -441,7 +441,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -10.16 3.81 0)
 					(length 2.54)
 					(name "CSN"
@@ -459,7 +459,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at -10.16 1.27 0)
 					(length 2.54)
 					(name "OUT"
@@ -477,7 +477,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -10.16 -1.27 0)
 					(length 2.54)
 					(name "CLK"
@@ -495,7 +495,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -10.16 -3.81 0)
 					(length 2.54)
 					(name "VDD"
@@ -513,7 +513,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 10.16 -3.81 180)
 					(length 2.54)
 					(name "GND"
@@ -531,7 +531,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 10.16 -1.27 180)
 					(length 2.54)
 					(name "VCC"
@@ -549,7 +549,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 10.16 1.27 180)
 					(length 2.54)
 					(name "VINP"
@@ -567,7 +567,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 10.16 3.81 180)
 					(length 2.54)
 					(name "VINN"
