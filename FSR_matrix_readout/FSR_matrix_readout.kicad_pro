@@ -648,7 +648,7 @@
         "uuid": "6dca5e5c-f676-465d-98c9-14af6047a226"
       }
     ],
-    "used_designators": "U22-28,#PWR59,#PWR66,#PWR72,#PWR78,#PWR99-152,#FLG1,R21-28,C53-76",
+    "used_designators": "#FLG2-3,J1-2,#PWR153-156,C77",
     "variants": []
   },
   "sheets": [
@@ -687,6 +687,10 @@
     [
       "8a1936ee-bbc8-45c2-b1d1-45af2be9c99e",
       "power"
+    ],
+    [
+      "4f1a91b2-67db-4340-9924-b3c75fd65f8f",
+      "freenove_esp32s3_dev"
     ]
   ],
   "text_variables": {},

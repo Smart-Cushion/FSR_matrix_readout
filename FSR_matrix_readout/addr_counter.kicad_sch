@@ -3749,10 +3749,6 @@
 		)
 		(instances
 			(project "FSR_matrix_readout"
-				(path "/6dca5e5c-f676-465d-98c9-14af6047a226"
-					(reference "U27")
-					(unit 1)
-				)
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/60e98e51-c3b8-48d8-9b0b-b1a7cf98069d"
 					(reference "U27")
 					(unit 1)
