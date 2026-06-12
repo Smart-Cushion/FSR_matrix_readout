@@ -1379,7 +1379,7 @@
 			(uuid "1ac6a2a5-0c1a-49ed-8f2f-2879509fe5f5")
 		)
 		(instances
-			(project "FSR_matrix_readout"
+			(project "fsr_matrix_readout_external_adc"
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/8e0ef234-4369-416e-96cd-abdf899d3500"
 					(reference "#PWR0116")
 					(unit 1)
@@ -1463,7 +1463,7 @@
 			(uuid "4084e125-dec4-4630-bd45-4ecb4d945dad")
 		)
 		(instances
-			(project "FSR_matrix_readout"
+			(project "fsr_matrix_readout_external_adc"
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/8e0ef234-4369-416e-96cd-abdf899d3500"
 					(reference "#PWR0120")
 					(unit 1)
@@ -1550,7 +1550,7 @@
 			(uuid "ea6e8d2c-ed94-4bb4-a6b1-356f3b6931b6")
 		)
 		(instances
-			(project "FSR_matrix_readout"
+			(project "fsr_matrix_readout_external_adc"
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/8e0ef234-4369-416e-96cd-abdf899d3500"
 					(reference "C58")
 					(unit 1)
@@ -1634,7 +1634,7 @@
 			(uuid "64d85145-c3c4-4198-a270-fdc6e2d0088f")
 		)
 		(instances
-			(project "FSR_matrix_readout"
+			(project "fsr_matrix_readout_external_adc"
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/8e0ef234-4369-416e-96cd-abdf899d3500"
 					(reference "#PWR0125")
 					(unit 1)
@@ -1717,7 +1717,7 @@
 			(uuid "1c732100-e232-407e-9fac-3320cdc5ee19")
 		)
 		(instances
-			(project "FSR_matrix_readout"
+			(project "fsr_matrix_readout_external_adc"
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/8e0ef234-4369-416e-96cd-abdf899d3500"
 					(reference "#PWR0112")
 					(unit 1)
@@ -1800,7 +1800,7 @@
 			(uuid "bf8d943d-0538-476c-81ae-747322563d7f")
 		)
 		(instances
-			(project "FSR_matrix_readout"
+			(project "fsr_matrix_readout_external_adc"
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/8e0ef234-4369-416e-96cd-abdf899d3500"
 					(reference "#PWR0113")
 					(unit 1)
@@ -1886,7 +1886,7 @@
 			(uuid "c95dca06-9d93-40a7-92d4-ad54487fdaee")
 		)
 		(instances
-			(project "FSR_matrix_readout"
+			(project "fsr_matrix_readout_external_adc"
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/8e0ef234-4369-416e-96cd-abdf899d3500"
 					(reference "C63")
 					(unit 1)
@@ -1969,7 +1969,7 @@
 			(uuid "10ba74f3-5b68-4a93-8ad4-682e977f1263")
 		)
 		(instances
-			(project "FSR_matrix_readout"
+			(project "fsr_matrix_readout_external_adc"
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/8e0ef234-4369-416e-96cd-abdf899d3500"
 					(reference "#PWR0117")
 					(unit 1)
@@ -2052,7 +2052,7 @@
 			(uuid "94938122-f7e7-4a11-844d-db96b2461948")
 		)
 		(instances
-			(project "FSR_matrix_readout"
+			(project "fsr_matrix_readout_external_adc"
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/8e0ef234-4369-416e-96cd-abdf899d3500"
 					(reference "#PWR0122")
 					(unit 1)
@@ -2135,7 +2135,7 @@
 			(uuid "4658e875-2a8e-486a-ad0b-ddcda1a949db")
 		)
 		(instances
-			(project "FSR_matrix_readout"
+			(project "fsr_matrix_readout_external_adc"
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/8e0ef234-4369-416e-96cd-abdf899d3500"
 					(reference "#PWR0121")
 					(unit 1)
@@ -2274,7 +2274,7 @@
 			(uuid "c99da8c6-de1d-4d5b-8b4c-3a7f385c5be1")
 		)
 		(instances
-			(project "FSR_matrix_readout"
+			(project "fsr_matrix_readout_external_adc"
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/8e0ef234-4369-416e-96cd-abdf899d3500"
 					(reference "U2")
 					(unit 1)
@@ -2360,7 +2360,7 @@
 			(uuid "be59979d-8b16-4147-b34e-4593d17e0f6b")
 		)
 		(instances
-			(project "FSR_matrix_readout"
+			(project "fsr_matrix_readout_external_adc"
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/8e0ef234-4369-416e-96cd-abdf899d3500"
 					(reference "C62")
 					(unit 1)
@@ -2499,7 +2499,7 @@
 			(uuid "ece15d9d-4d3c-4d16-9bbc-220c065e9bf9")
 		)
 		(instances
-			(project "FSR_matrix_readout"
+			(project "fsr_matrix_readout_external_adc"
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/8e0ef234-4369-416e-96cd-abdf899d3500"
 					(reference "U1")
 					(unit 1)
@@ -2583,7 +2583,7 @@
 			(uuid "92fca412-6164-4fc5-bd7c-8fa1ac616a31")
 		)
 		(instances
-			(project "FSR_matrix_readout"
+			(project "fsr_matrix_readout_external_adc"
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/8e0ef234-4369-416e-96cd-abdf899d3500"
 					(reference "R25")
 					(unit 1)
@@ -2667,7 +2667,7 @@
 			(uuid "bd48da98-4ec3-4bba-8100-30db9a07fb08")
 		)
 		(instances
-			(project "FSR_matrix_readout"
+			(project "fsr_matrix_readout_external_adc"
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/8e0ef234-4369-416e-96cd-abdf899d3500"
 					(reference "#PWR0115")
 					(unit 1)
@@ -2753,7 +2753,7 @@
 			(uuid "f053c6ab-1e74-4586-8d21-d3944840f894")
 		)
 		(instances
-			(project "FSR_matrix_readout"
+			(project "fsr_matrix_readout_external_adc"
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/8e0ef234-4369-416e-96cd-abdf899d3500"
 					(reference "C61")
 					(unit 1)
@@ -2837,7 +2837,7 @@
 			(uuid "8b0954b2-8392-40a4-b85d-e72c5626fb79")
 		)
 		(instances
-			(project "FSR_matrix_readout"
+			(project "fsr_matrix_readout_external_adc"
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/8e0ef234-4369-416e-96cd-abdf899d3500"
 					(reference "#PWR0114")
 					(unit 1)
@@ -2923,7 +2923,7 @@
 			(uuid "173108b9-c62a-4614-9651-9c298188cc80")
 		)
 		(instances
-			(project "FSR_matrix_readout"
+			(project "fsr_matrix_readout_external_adc"
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/8e0ef234-4369-416e-96cd-abdf899d3500"
 					(reference "C60")
 					(unit 1)
@@ -3007,7 +3007,7 @@
 			(uuid "26af0b80-268d-447e-b79c-c89f1c759a40")
 		)
 		(instances
-			(project "FSR_matrix_readout"
+			(project "fsr_matrix_readout_external_adc"
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/8e0ef234-4369-416e-96cd-abdf899d3500"
 					(reference "R26")
 					(unit 1)
@@ -3091,7 +3091,7 @@
 			(uuid "ddd6d63d-6bc5-4d41-a992-1e78bb9cd3be")
 		)
 		(instances
-			(project "FSR_matrix_readout"
+			(project "fsr_matrix_readout_external_adc"
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/8e0ef234-4369-416e-96cd-abdf899d3500"
 					(reference "#PWR0118")
 					(unit 1)
@@ -3175,7 +3175,7 @@
 			(uuid "7a8efc58-b853-47dd-ae03-102bdd979148")
 		)
 		(instances
-			(project "FSR_matrix_readout"
+			(project "fsr_matrix_readout_external_adc"
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/8e0ef234-4369-416e-96cd-abdf899d3500"
 					(reference "#PWR0124")
 					(unit 1)
@@ -3259,7 +3259,7 @@
 			(uuid "7ab21c5a-6b1f-4cb7-b8e9-b40866946843")
 		)
 		(instances
-			(project "FSR_matrix_readout"
+			(project "fsr_matrix_readout_external_adc"
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/8e0ef234-4369-416e-96cd-abdf899d3500"
 					(reference "#PWR0123")
 					(unit 1)
@@ -3346,7 +3346,7 @@
 			(uuid "34bb85d1-2b86-417e-aa4a-7ba461b9460b")
 		)
 		(instances
-			(project "FSR_matrix_readout"
+			(project "fsr_matrix_readout_external_adc"
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/8e0ef234-4369-416e-96cd-abdf899d3500"
 					(reference "C59")
 					(unit 1)
@@ -3429,7 +3429,7 @@
 			(uuid "720286ea-e006-4d1f-9b3e-6dd25ca9a5a4")
 		)
 		(instances
-			(project "FSR_matrix_readout"
+			(project "fsr_matrix_readout_external_adc"
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/8e0ef234-4369-416e-96cd-abdf899d3500"
 					(reference "#PWR0119")
 					(unit 1)

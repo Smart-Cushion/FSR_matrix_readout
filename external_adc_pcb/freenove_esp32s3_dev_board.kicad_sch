@@ -1727,7 +1727,7 @@
 			(uuid "42be8912-2632-42cb-a3cb-3a66ff6fc4c7")
 		)
 		(instances
-			(project "FSR_matrix_readout"
+			(project "fsr_matrix_readout_external_adc"
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/4f1a91b2-67db-4340-9924-b3c75fd65f8f"
 					(reference "J2")
 					(unit 1)
@@ -1813,7 +1813,7 @@
 			(uuid "b2de1d28-f5da-4e1d-b238-e8b42494bade")
 		)
 		(instances
-			(project "FSR_matrix_readout"
+			(project "fsr_matrix_readout_external_adc"
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/4f1a91b2-67db-4340-9924-b3c75fd65f8f"
 					(reference "C77")
 					(unit 1)
@@ -1954,7 +1954,7 @@
 			(uuid "17139473-d301-4362-ad17-5eb87009a8bd")
 		)
 		(instances
-			(project "FSR_matrix_readout"
+			(project "fsr_matrix_readout_external_adc"
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/4f1a91b2-67db-4340-9924-b3c75fd65f8f"
 					(reference "J1")
 					(unit 1)
@@ -2038,7 +2038,7 @@
 			(uuid "9bc2868b-ac02-4db9-bc8d-2e2a20e0eac1")
 		)
 		(instances
-			(project "FSR_matrix_readout"
+			(project "fsr_matrix_readout_external_adc"
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/4f1a91b2-67db-4340-9924-b3c75fd65f8f"
 					(reference "#PWR0155")
 					(unit 1)
@@ -2121,7 +2121,7 @@
 			(uuid "d25f69e1-58e5-4ec5-b5f9-facba21811d6")
 		)
 		(instances
-			(project "FSR_matrix_readout"
+			(project "fsr_matrix_readout_external_adc"
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/4f1a91b2-67db-4340-9924-b3c75fd65f8f"
 					(reference "#PWR0156")
 					(unit 1)
@@ -2203,7 +2203,7 @@
 			(uuid "519d5b06-e9ec-49b9-b101-5477972ab66e")
 		)
 		(instances
-			(project "FSR_matrix_readout"
+			(project "fsr_matrix_readout_external_adc"
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/4f1a91b2-67db-4340-9924-b3c75fd65f8f"
 					(reference "#FLG02")
 					(unit 1)
@@ -2286,7 +2286,7 @@
 			(uuid "dff6e1a5-3ffe-471c-a4b5-497d31f5bb2f")
 		)
 		(instances
-			(project "FSR_matrix_readout"
+			(project "fsr_matrix_readout_external_adc"
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/4f1a91b2-67db-4340-9924-b3c75fd65f8f"
 					(reference "#FLG03")
 					(unit 1)
@@ -2370,7 +2370,7 @@
 			(uuid "5854c221-23ed-4211-84a9-3432e540f9cd")
 		)
 		(instances
-			(project "FSR_matrix_readout"
+			(project "fsr_matrix_readout_external_adc"
 				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/4f1a91b2-67db-4340-9924-b3c75fd65f8f"
 					(reference "#PWR0153")
 					(unit 1)
