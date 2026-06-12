@@ -2830,7 +2830,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "0257cdfa-5088-43ef-b3f9-44ecadae8ca2")
-		(property "Sheetname" "frontend_mux"
+		(property "Sheetname" "Frontend Analog Switch"
 			(at 106.68 53.8984 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2841,7 +2841,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "frontend_mux.kicad_sch"
+		(property "Sheetfile" "frontend_analog_switch.kicad_sch"
 			(at 106.68 50.292 0)
 			(hide yes)
 			(show_name no)
@@ -2906,8 +2906,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "03798c46-1108-4316-991b-16e4f41f6d2c")
-		(property "Sheetname" "backend_mux"
-			(at 149.225 130.81 0)
+		(property "Sheetname" "Backend Mux"
+			(at 148.59 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2992,7 +2992,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "41800b67-536b-40f6-9870-7d633bd400f6")
-		(property "Sheetname" "16:1_decoder"
+		(property "Sheetname" "16:1 Decoder"
 			(at 148.59 55.1684 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3059,7 +3059,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "4f1a91b2-67db-4340-9924-b3c75fd65f8f")
-		(property "Sheetname" "freenove_esp32s3_dev"
+		(property "Sheetname" "Feenove Esp32s3 Dev Board"
 			(at 176.53 72.9484 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3070,7 +3070,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "freenove_esp32s3_dev.kicad_sch"
+		(property "Sheetfile" "freenove_esp32s3_dev_board.kicad_sch"
 			(at 176.53 89.4846 0)
 			(hide yes)
 			(show_name no)
@@ -3195,7 +3195,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "60e98e51-c3b8-48d8-9b0b-b1a7cf98069d")
-		(property "Sheetname" "addr_counter"
+		(property "Sheetname" "Addr Counter"
 			(at 152.4 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3292,7 +3292,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "8a1936ee-bbc8-45c2-b1d1-45af2be9c99e")
-		(property "Sheetname" "power"
+		(property "Sheetname" "Power"
 			(at 107.95 95.8084 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3348,7 +3348,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "8e0ef234-4369-416e-96cd-abdf899d3500")
-		(property "Sheetname" "adc"
+		(property "Sheetname" "ADC"
 			(at 216.535 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3446,7 +3446,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -3455,8 +3454,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "bd0ecfe5-c384-4745-b841-51e834c1c1f6")
-		(property "Sheetname" "sense_opamps"
-			(at 106.68 119.9384 0)
+		(property "Sheetname" "TIA Op-amps"
+			(at 106.68 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3466,7 +3465,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "sense_opamps.kicad_sch"
+		(property "Sheetfile" "tia_opamps.kicad_sch"
 			(at 106.68 128.8546 0)
 			(hide yes)
 			(show_name no)
@@ -3531,7 +3530,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "f3fd7816-5f6a-4bef-80e9-103b180fac0f")
-		(property "Sheetname" "dynamic_gain_opamp"
+		(property "Sheetname" "Programmable Gain Op-amp"
 			(at 176.53 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3542,7 +3541,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "dynamic_gain_opamp.kicad_sch"
+		(property "Sheetfile" "programmable_gain_opamp.kicad_sch"
 			(at 176.53 125.0446 0)
 			(hide yes)
 			(show_name no)

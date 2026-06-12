@@ -1993,6 +1993,16 @@
 		(uuid "4a93b2fb-64e4-4886-9207-a105baa58b5a")
 	)
 	(label "V_{g}"
+		(at 99.06 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f676b28-e066-4191-bc2c-a4565ed4f163")
+	)
+	(label "V_{g}"
 		(at 116.84 67.31 0)
 		(effects
 			(font
@@ -2051,6 +2061,16 @@
 			(justify left bottom)
 		)
 		(uuid "60609d0b-d633-45e0-b169-3a71d8f681e4")
+	)
+	(label "V_{g}"
+		(at 165.1 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "608b5e7d-f03c-458f-9ea0-a4967b30f1c3")
 	)
 	(label "fsr_drive2"
 		(at 129.54 54.61 180)
