@@ -448,6 +448,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Adjusted since esp32s3's \nmax ADC range is ~2.9V"
+		(exclude_from_sim no)
+		(at 121.92 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cf6fadc6-c525-471e-9e1e-a60373ff979b")
+	)
 	(junction
 		(at 105.41 86.36)
 		(diameter 0)
@@ -1871,9 +1881,9 @@
 		(lib_id "FSR_readout:4_to_16 Decoder")
 		(members "7bcd2658-0b6a-4321-9860-384b8d346995")
 	)
-	(group "3V3 And 1V65 Power"
+	(group "Power"
 		(uuid "99826ee7-0175-4f84-a1f1-eaf31683cb33")
-		(lib_id "FSR_readout:3V3 And 1V65 Power")
+		(lib_id "FSR_readout:Power")
 		(members "fdc75ebc-7ada-4013-b8f9-952e82a3d457")
 	)
 	(sheet
@@ -1925,7 +1935,7 @@
 				(justify left)
 			)
 		)
-		(pin "VG_1V65" input
+		(pin "VG" input
 			(at 105.41 60.96 270)
 			(uuid "b536f767-6d88-46aa-99ba-8f84c5f331ea")
 			(effects
@@ -1991,7 +2001,7 @@
 				(justify left top)
 			)
 		)
-		(pin "VG_1V65" input
+		(pin "VG" input
 			(at 105.41 113.03 90)
 			(uuid "bb6c1834-bc78-4158-b432-1c67cf4cd9b7")
 			(effects
@@ -2178,7 +2188,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "fdc75ebc-7ada-4013-b8f9-952e82a3d457")
-		(property "Sheetname" "3V3 And 1V65 Power"
+		(property "Sheetname" "Power"
 			(at 114.3 80.5684 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2189,7 +2199,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "3V3 And 1V65 Power.kicad_sch"
+		(property "Sheetfile" "power.kicad_sch"
 			(at 114.3 90.7546 0)
 			(hide yes)
 			(show_name no)
@@ -2201,7 +2211,7 @@
 				(justify left top)
 			)
 		)
-		(pin "VG_1V65" output
+		(pin "VG" output
 			(at 114.3 86.36 180)
 			(uuid "d3c7a5f3-2a95-469a-9651-38e846f7c7aa")
 			(effects

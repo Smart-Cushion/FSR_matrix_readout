@@ -1257,6 +1257,18 @@
 		)
 		(uuid "43c47ef9-6393-4e4d-9f22-389e52551780")
 	)
+	(text "VG = 1.65 V"
+		(exclude_from_sim no)
+		(at 177.8 73.66 0)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4278ea9-48a7-4d96-aeeb-e09f35f949e9")
+	)
 	(junction
 		(at 132.08 97.79)
 		(diameter 0)
@@ -1625,7 +1637,7 @@
 		)
 		(uuid "fc1982be-ad0b-4221-94ea-76e20a0d10a4")
 	)
-	(hierarchical_label "VG_1V65"
+	(hierarchical_label "VG"
 		(shape output)
 		(at 177.8 77.47 0)
 		(effects

@@ -2923,7 +2923,7 @@
 				(justify left top)
 			)
 		)
-		(pin "VG_1V65" input
+		(pin "VG" input
 			(at 128.27 66.04 270)
 			(uuid "b9882170-629b-4438-92ba-6a3b95c664c9")
 			(effects
@@ -2935,7 +2935,7 @@
 			)
 		)
 		(pin "FSR_DRIVE[0..15]" output
-			(at 106.68 60.96 180)
+			(at 106.68 59.69 180)
 			(uuid "40a08a93-630f-4dc4-9252-84946c581462")
 			(effects
 				(font
@@ -3418,7 +3418,7 @@
 				(justify left top)
 			)
 		)
-		(pin "VG_1V65" output
+		(pin "VG" output
 			(at 120.65 99.06 0)
 			(uuid "55a749ba-1e38-4914-8579-50b7c7a0ecbc")
 			(effects
@@ -3613,7 +3613,7 @@
 				(justify left)
 			)
 		)
-		(pin "VG_1V65" input
+		(pin "VG" input
 			(at 128.27 115.57 90)
 			(uuid "858bbb21-5ce7-4e68-ae7a-f9bd564d4aa8")
 			(effects
@@ -3694,7 +3694,7 @@
 				(justify left)
 			)
 		)
-		(pin "VG_1V65" input
+		(pin "VG" input
 			(at 189.23 109.22 90)
 			(uuid "10558b2b-2eec-4dc4-b320-4f18a3938760")
 			(effects

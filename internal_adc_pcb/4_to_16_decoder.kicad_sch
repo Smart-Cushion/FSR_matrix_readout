@@ -804,7 +804,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
+		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -829,7 +829,7 @@
 					)
 				)
 			)
-			(property "Value" "+5V"
+			(property "Value" "+3V3"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -861,7 +861,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -883,7 +883,7 @@
 					)
 				)
 			)
-			(symbol "+5V_0_1"
+			(symbol "+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -921,7 +921,7 @@
 					)
 				)
 			)
-			(symbol "+5V_1_1"
+			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2234,8 +2234,8 @@
 		(uuid "68d998eb-8203-4f3d-8a07-c54f828ae62f")
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 121.92 49.53 270)
+		(lib_id "power:+3V3")
+		(at 121.92 85.09 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2243,80 +2243,70 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "060f5f56-8351-4c67-adb3-2c2c9b8217ee")
-		(property "Reference" "#PWR065"
-			(at 118.11 49.53 0)
+		(fields_autoplaced yes)
+		(uuid "01279a41-f262-42aa-a596-1f7f4fbdac08")
+		(property "Reference" "#PWR080"
+			(at 118.11 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 124.714 48.006 90)
+		(property "Value" "+3V3"
+			(at 125.73 85.0899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 49.53 0)
+			(at 121.92 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 49.53 0)
+			(at 121.92 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 121.92 49.53 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 121.92 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
 		)
 		(pin "1"
-			(uuid "b8985421-1e8c-48af-81bf-d382e282da56")
+			(uuid "33f9db90-e693-437c-94c2-0608ae684e78")
 		)
 		(instances
-			(project "fsr_matrix_readout_external_adc"
-				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/41800b67-536b-40f6-9870-7d633bd400f6"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
 			(project "fsr_matrix_readout_internal_adc"
 				(path "/a2a8c34e-3adf-4a95-8857-b713f7048029/7bcd2658-0b6a-4321-9860-384b8d346995"
-					(reference "#PWR065")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -2681,96 +2671,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 121.92 85.09 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "85cc1f22-21ef-4ede-989d-a466c34e1079")
-		(property "Reference" "#PWR066"
-			(at 118.11 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Iosevka NF")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 124.968 83.312 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Iosevka NF")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Iosevka NF")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Iosevka NF")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 121.92 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Iosevka NF")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "45fd0001-c909-4caf-b826-43b9a8ed2365")
-		)
-		(instances
-			(project "fsr_matrix_readout_external_adc"
-				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/41800b67-536b-40f6-9870-7d633bd400f6"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-			(project "fsr_matrix_readout_internal_adc"
-				(path "/a2a8c34e-3adf-4a95-8857-b713f7048029/7bcd2658-0b6a-4321-9860-384b8d346995"
-					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
+		(lib_id "power:+3V3")
 		(at 121.92 120.65 270)
 		(unit 1)
 		(body_style 1)
@@ -2780,7 +2681,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9a75fab2-6821-4533-b571-76947abfc9bc")
+		(uuid "92f268cd-94ac-4fa3-be7a-5a8bedad28b5")
 		(property "Reference" "#PWR067"
 			(at 118.11 120.65 0)
 			(hide yes)
@@ -2788,18 +2689,16 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+3V3"
 			(at 125.73 120.6499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -2812,7 +2711,6 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2824,36 +2722,107 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 121.92 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
 		)
 		(pin "1"
-			(uuid "c43c60eb-1d84-47f2-a16a-bb4043de1a99")
+			(uuid "df75192e-d449-466b-8afe-9a44d04eb6d8")
 		)
 		(instances
-			(project "fsr_matrix_readout_external_adc"
-				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/41800b67-536b-40f6-9870-7d633bd400f6"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
 			(project "fsr_matrix_readout_internal_adc"
 				(path "/a2a8c34e-3adf-4a95-8857-b713f7048029/7bcd2658-0b6a-4321-9860-384b8d346995"
 					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 121.92 49.53 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99b09741-fa46-47dc-8b49-57f8a02a1ffe")
+		(property "Reference" "#PWR081"
+			(at 118.11 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 125.73 49.5299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 121.92 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a767fa6a-7d02-49c1-8d04-97736ed5000f")
+		)
+		(instances
+			(project "fsr_matrix_readout_internal_adc"
+				(path "/a2a8c34e-3adf-4a95-8857-b713f7048029/7bcd2658-0b6a-4321-9860-384b8d346995"
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)

@@ -3397,7 +3397,7 @@
 		)
 		(uuid "14204c0a-ca5c-4fd7-9dd2-1e74e5a4c9d4")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 38.1 33.02 0)
 		(effects
 			(font
@@ -3408,7 +3408,7 @@
 		)
 		(uuid "189aff95-00c1-4d73-90c0-f57a41cbce05")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 76.2 69.85 180)
 		(effects
 			(font
@@ -3441,7 +3441,7 @@
 		)
 		(uuid "23491c15-fa9a-44a9-b0e1-4d679ab2d77c")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 148.59 29.21 180)
 		(effects
 			(font
@@ -3507,7 +3507,7 @@
 		)
 		(uuid "46617ac9-8ff8-4010-bfb6-ea1c0312a8d6")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 148.59 49.53 180)
 		(effects
 			(font
@@ -3540,7 +3540,7 @@
 		)
 		(uuid "5353acf9-f414-4a8b-896f-7f577e088e24")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 76.2 49.53 180)
 		(effects
 			(font
@@ -3551,7 +3551,7 @@
 		)
 		(uuid "5766c0ac-8ba0-4a6a-bf72-a45df3810a23")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 147.32 90.17 180)
 		(effects
 			(font
@@ -3562,7 +3562,7 @@
 		)
 		(uuid "5cbd959b-8da2-4726-b8b1-6bf0ab1064d1")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 74.93 90.17 180)
 		(effects
 			(font
@@ -3606,7 +3606,7 @@
 		)
 		(uuid "670b6738-f449-494c-822e-8511504c117c")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 147.32 177.8 180)
 		(effects
 			(font
@@ -3628,7 +3628,7 @@
 		)
 		(uuid "68af014e-ef1c-4b57-aa9b-5e9e3cc27af5")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 148.59 116.84 180)
 		(effects
 			(font
@@ -3639,7 +3639,7 @@
 		)
 		(uuid "6b9fee48-c59f-4ac1-a8b1-e17cd4c636e2")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 74.93 120.65 180)
 		(effects
 			(font
@@ -3683,7 +3683,7 @@
 		)
 		(uuid "7bda353c-37d7-4322-bd2a-4faef4676271")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 73.66 181.61 180)
 		(effects
 			(font
@@ -3705,7 +3705,7 @@
 		)
 		(uuid "9575c27e-1958-497c-9392-a1fdf4da23ed")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 196.85 72.39 0)
 		(effects
 			(font
@@ -3716,7 +3716,7 @@
 		)
 		(uuid "95e29154-a8e4-4ec8-9fb7-8560be5d761f")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 74.93 140.97 180)
 		(effects
 			(font
@@ -3738,7 +3738,7 @@
 		)
 		(uuid "9a4549a6-905f-41a5-9c5c-acc220785a41")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 30.48 73.66 0)
 		(effects
 			(font
@@ -3760,7 +3760,7 @@
 		)
 		(uuid "a8a04315-6a00-4c9c-94b4-5ae32649e2cd")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 198.12 144.78 0)
 		(effects
 			(font
@@ -3771,7 +3771,7 @@
 		)
 		(uuid "abc88837-a5d0-4fa0-bead-c64df4a32143")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 148.59 137.16 180)
 		(effects
 			(font
@@ -3782,7 +3782,7 @@
 		)
 		(uuid "b4e83c6b-4535-4ec8-815e-f1ee89266882")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 148.59 157.48 180)
 		(effects
 			(font
@@ -3793,7 +3793,7 @@
 		)
 		(uuid "b656aaba-18a1-4356-85d9-0f8886d1276e")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 73.66 29.21 180)
 		(effects
 			(font
@@ -3826,7 +3826,7 @@
 		)
 		(uuid "c5e05b9b-bb11-41ea-bebd-ecd4270596fe")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 74.93 161.29 180)
 		(effects
 			(font
@@ -3859,7 +3859,7 @@
 		)
 		(uuid "cca1a652-ac9d-4f22-a35b-440e54885d30")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 148.59 69.85 180)
 		(effects
 			(font
@@ -3892,7 +3892,7 @@
 		)
 		(uuid "db856fc6-b13a-449f-aff5-acaf54dd8e84")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 33.02 166.37 0)
 		(effects
 			(font
@@ -3959,7 +3959,7 @@
 		)
 		(uuid "becea387-d9d9-4f0c-87a8-0c14083bb5db")
 	)
-	(hierarchical_label "VG_1V65"
+	(hierarchical_label "VG"
 		(shape input)
 		(at 35.56 33.02 180)
 		(effects

@@ -716,7 +716,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "front end: connect V_{g} or GND to FSR mat\nalternative: BCT4223ETB-TR\n\nselected line will output GND, the rest will output V_{g} \nselected input is LOW, unselected input is HIGH"
+	(text "front end: connect VG or GND to FSR mat\nalternative: BCT4223ETB-TR\n\nselected line will output GND, the rest will output VG \nselected input is LOW, unselected input is HIGH"
 		(exclude_from_sim no)
 		(at 239.014 23.114 0)
 		(effects
@@ -1873,7 +1873,7 @@
 		)
 		(uuid "f4491308-f754-4cb4-a906-3cc2b9549a77")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 116.84 102.87 0)
 		(effects
 			(font
@@ -1917,7 +1917,7 @@
 		)
 		(uuid "196c3d49-9f9f-434b-933e-89d91057fef7")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 99.06 157.48 0)
 		(effects
 			(font
@@ -1939,7 +1939,7 @@
 		)
 		(uuid "23b9d007-9ae2-4419-a42f-5caa2a2ac122")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 121.92 49.53 180)
 		(effects
 			(font
@@ -1950,7 +1950,7 @@
 		)
 		(uuid "275b195f-0aa8-427f-a9a9-27c55f69f119")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 165.1 121.92 0)
 		(effects
 			(font
@@ -1961,7 +1961,7 @@
 		)
 		(uuid "2f07a948-f0bf-40ff-923d-42060e5fb90c")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 44.45 30.48 0)
 		(effects
 			(font
@@ -1972,7 +1972,7 @@
 		)
 		(uuid "3c5391b8-86a7-422f-9f79-d9a8413cab86")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 116.84 138.43 0)
 		(effects
 			(font
@@ -1983,7 +1983,7 @@
 		)
 		(uuid "3d8cc6de-6953-4813-afc5-ef033d763df5")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 121.92 86.36 180)
 		(effects
 			(font
@@ -1994,7 +1994,7 @@
 		)
 		(uuid "417e6309-b1df-49dc-88d7-db4199b81b9d")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 40.64 55.88 0)
 		(effects
 			(font
@@ -2005,7 +2005,7 @@
 		)
 		(uuid "4a93b2fb-64e4-4886-9207-a105baa58b5a")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 99.06 121.92 0)
 		(effects
 			(font
@@ -2016,7 +2016,7 @@
 		)
 		(uuid "4f676b28-e066-4191-bc2c-a4565ed4f163")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 116.84 67.31 0)
 		(effects
 			(font
@@ -2060,7 +2060,7 @@
 		)
 		(uuid "59c06be1-ccaa-4317-a47b-093d7efb44cd")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 99.06 86.36 0)
 		(effects
 			(font
@@ -2082,7 +2082,7 @@
 		)
 		(uuid "60609d0b-d633-45e0-b169-3a71d8f681e4")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 165.1 157.48 0)
 		(effects
 			(font
@@ -2115,7 +2115,7 @@
 		)
 		(uuid "62c2d06c-f77a-4fee-b8a2-885ad72154b1")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 55.88 157.48 180)
 		(effects
 			(font
@@ -2148,7 +2148,7 @@
 		)
 		(uuid "69d1691c-6096-4125-8a7f-6505d05bd659")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 165.1 86.36 0)
 		(effects
 			(font
@@ -2181,7 +2181,7 @@
 		)
 		(uuid "71b32586-3682-42e9-9574-d487d9b00ecf")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 121.92 157.48 180)
 		(effects
 			(font
@@ -2225,7 +2225,7 @@
 		)
 		(uuid "9f8aa856-92ce-4acb-bd15-25e43506670d")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 165.1 49.53 0)
 		(effects
 			(font
@@ -2291,7 +2291,7 @@
 		)
 		(uuid "b6b81435-38d9-45ed-b41a-9cdc43d75088")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 99.06 49.53 0)
 		(effects
 			(font
@@ -2313,7 +2313,7 @@
 		)
 		(uuid "baf80aa7-caa6-44f1-85b7-42886c135fdf")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 44.45 105.41 0)
 		(effects
 			(font
@@ -2324,7 +2324,7 @@
 		)
 		(uuid "bbc175d3-3fe1-40e6-b013-cbef540f1344")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 55.88 49.53 180)
 		(effects
 			(font
@@ -2335,7 +2335,7 @@
 		)
 		(uuid "bd832e46-e1a3-4bc8-aa6b-d5c739b4cc48")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 116.84 31.75 0)
 		(effects
 			(font
@@ -2368,7 +2368,7 @@
 		)
 		(uuid "c42f6dd4-db89-4623-9085-b1040bc55e03")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 44.45 68.58 0)
 		(effects
 			(font
@@ -2379,7 +2379,7 @@
 		)
 		(uuid "ca5a5ec2-b3c0-4e63-9865-6263cd7dc5d1")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 45.72 138.43 0)
 		(effects
 			(font
@@ -2445,7 +2445,7 @@
 		)
 		(uuid "df276f8b-294e-4d47-9f0c-2a714b7fa966")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 55.88 121.92 180)
 		(effects
 			(font
@@ -2467,7 +2467,7 @@
 		)
 		(uuid "e80ec7c5-73c7-4de8-8abd-13440bcda4a4")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 55.88 86.36 180)
 		(effects
 			(font
@@ -2489,7 +2489,7 @@
 		)
 		(uuid "f78ea584-7654-47ca-8a1e-808a6e91a53e")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 121.92 121.92 180)
 		(effects
 			(font
@@ -2512,7 +2512,7 @@
 		)
 		(uuid "336d912d-218c-4548-b46f-0fd283156817")
 	)
-	(hierarchical_label "VG_1V65"
+	(hierarchical_label "VG"
 		(shape input)
 		(at 36.83 55.88 180)
 		(effects

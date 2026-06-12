@@ -1238,7 +1238,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "1.958(raw_sense - V_{g})\ngiven V_{g} = 1.65\nThis will map [1.65, 3.3] to [0, 3.231]"
+	(text "1.958(raw_sense - VG)\nVG = 1.65 V in external ADC design\nThis will map [1.65, 3.3] to [0, 3.231]"
 		(exclude_from_sim no)
 		(at 63.754 33.528 0)
 		(effects
@@ -1975,7 +1975,7 @@
 		)
 		(uuid "fff6247b-f54a-48ae-bccd-fb454dee04d6")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 74.93 55.88 180)
 		(effects
 			(font
@@ -1986,7 +1986,7 @@
 		)
 		(uuid "1f24ba2b-accd-4792-981e-a4b44329e4ab")
 	)
-	(label "VG_1V65"
+	(label "VG"
 		(at 74.93 93.98 180)
 		(effects
 			(font
@@ -2057,7 +2057,7 @@
 		)
 		(uuid "990f599b-ea96-4637-a38c-014d9ef22111")
 	)
-	(hierarchical_label "VG_1V65"
+	(hierarchical_label "VG"
 		(shape input)
 		(at 34.29 69.85 90)
 		(effects

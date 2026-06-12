@@ -452,7 +452,7 @@
       "extra_units": "error",
       "field_name_whitespace": "warning",
       "footprint_filter": "warning",
-      "footprint_link_issues": "warning",
+      "footprint_link_issues": "ignore",
       "four_way_junction": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
