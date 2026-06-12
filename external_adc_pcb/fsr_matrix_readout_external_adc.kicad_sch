@@ -1417,7 +1417,7 @@
 	)
 	(bus
 		(pts
-			(xy 106.68 60.96) (xy 100.33 60.96)
+			(xy 106.68 59.69) (xy 100.33 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1657,7 +1657,7 @@
 	)
 	(bus
 		(pts
-			(xy 100.33 60.96) (xy 100.33 62.23)
+			(xy 100.33 59.69) (xy 100.33 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2303,7 +2303,7 @@
 		(dnp no)
 		(uuid "706b4923-f291-425d-955b-638c376d122c")
 		(property "Reference" "TP3"
-			(at 87.63 111.76 0)
+			(at 97.79 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2315,7 +2315,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 87.63 114.3 0)
+			(at 97.79 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2641,7 +2641,7 @@
 		(dnp no)
 		(uuid "b28b3860-3232-40a7-b8fe-c59d6ec67107")
 		(property "Reference" "TP2"
-			(at 100.33 46.2279 0)
+			(at 97.79 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2653,7 +2653,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 100.33 48.7679 0)
+			(at 97.79 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3071,7 +3071,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "41800b67-536b-40f6-9870-7d633bd400f6")
-		(property "Sheetname" "16:1 Decoder"
+		(property "Sheetname" "4:16 Decoder"
 			(at 148.59 55.1684 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3083,7 +3083,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "16_to_1_decoder.kicad_sch"
+		(property "Sheetfile" "4_to_16_decoder.kicad_sch"
 			(at 148.59 51.308 0)
 			(hide yes)
 			(show_name no)

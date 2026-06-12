@@ -260,12 +260,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "four_way_junction|1282700|990600|e1d507c9-5115-47ee-8bf6-7e1f2183d221|78a441c3-4a61-493a-8fc6-e0b9294a2f49|||",
-        "they're just all connected to Vg"
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -451,9 +446,9 @@
       "endpoint_off_grid": "warning",
       "extra_units": "error",
       "field_name_whitespace": "warning",
-      "footprint_filter": "warning",
+      "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
-      "four_way_junction": "warning",
+      "four_way_junction": "ignore",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
@@ -478,7 +473,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "warning",
+      "single_global_label": "ignore",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -493,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "fsr_matrix_readout_external_adc.kicad_pro",
+    "filename": "fsr_matrix_readout_internal_adc.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -603,42 +598,12 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer",
-          "name": "Manufacturer",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MPN",
-          "name": "MPN",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC Part",
-          "name": "LCSC Part",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -678,9 +643,9 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "fsr_matrix_readout_external_adc.kicad_sch",
-        "name": "fsr_matrix_readout_external_adc",
-        "uuid": "6dca5e5c-f676-465d-98c9-14af6047a226"
+        "filename": "fsr_matrix_readout_internal_adc.kicad_sch",
+        "name": "fsr_matrix_readout_internal_adc",
+        "uuid": "a2a8c34e-3adf-4a95-8857-b713f7048029"
       }
     ],
     "used_designators": "",
@@ -688,44 +653,28 @@
   },
   "sheets": [
     [
-      "6dca5e5c-f676-465d-98c9-14af6047a226",
-      "fsr_matrix_readout_external_adc"
+      "a2a8c34e-3adf-4a95-8857-b713f7048029",
+      "fsr_matrix_readout_internal_adc"
     ],
     [
-      "41800b67-536b-40f6-9870-7d633bd400f6",
-      "4:16 Decoder"
+      "307fdc1f-8268-4192-8310-111e61425162",
+      "16x Frontend Analog Switch"
     ],
     [
-      "0257cdfa-5088-43ef-b3f9-44ecadae8ca2",
-      "Frontend Analog Switch"
+      "fdc75ebc-7ada-4013-b8f9-952e82a3d457",
+      "3V3 And 1V65 Power"
     ],
     [
-      "bd0ecfe5-c384-4745-b841-51e834c1c1f6",
-      "TIA Op-amps"
+      "7b6125c2-c140-4f69-b2ce-c341fad458d4",
+      "ESP32-S3-DevKitC-1"
     ],
     [
-      "60e98e51-c3b8-48d8-9b0b-b1a7cf98069d",
-      "Addr Counter"
+      "7bcd2658-0b6a-4321-9860-384b8d346995",
+      "4_to_16 Decoder"
     ],
     [
-      "03798c46-1108-4316-991b-16e4f41f6d2c",
-      "Backend Mux"
-    ],
-    [
-      "f3fd7816-5f6a-4bef-80e9-103b180fac0f",
-      "Programmable Gain Op-amp"
-    ],
-    [
-      "8e0ef234-4369-416e-96cd-abdf899d3500",
-      "ADC"
-    ],
-    [
-      "8a1936ee-bbc8-45c2-b1d1-45af2be9c99e",
-      "Power"
-    ],
-    [
-      "4f1a91b2-67db-4340-9924-b3c75fd65f8f",
-      "Feenove Esp32s3 Dev Board"
+      "7868bbf0-6a24-408c-bc10-0b6aa0478f41",
+      "16x TIA Op-amps"
     ]
   ],
   "text_variables": {},
