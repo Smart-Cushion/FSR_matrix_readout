@@ -1417,7 +1417,7 @@
 	)
 	(bus
 		(pts
-			(xy 106.68 59.69) (xy 100.33 59.69)
+			(xy 106.68 60.96) (xy 100.33 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1467,7 +1467,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 99.06) (xy 180.34 99.06)
+			(xy 128.27 99.06) (xy 189.23 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1507,7 +1507,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 99.06) (xy 128.27 120.65)
+			(xy 128.27 99.06) (xy 128.27 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1657,7 +1657,7 @@
 	)
 	(bus
 		(pts
-			(xy 100.33 59.69) (xy 100.33 62.23)
+			(xy 100.33 60.96) (xy 100.33 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1737,7 +1737,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 62.23) (xy 128.27 99.06)
+			(xy 128.27 66.04) (xy 128.27 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1797,7 +1797,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 99.06) (xy 180.34 109.22)
+			(xy 189.23 99.06) (xy 189.23 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2303,7 +2303,7 @@
 		(dnp no)
 		(uuid "706b4923-f291-425d-955b-638c376d122c")
 		(property "Reference" "TP3"
-			(at 100.33 112.2679 0)
+			(at 87.63 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2315,7 +2315,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 100.33 114.8079 0)
+			(at 87.63 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2884,8 +2884,8 @@
 		)
 	)
 	(sheet
-		(at 106.68 54.61)
-		(size 34.29 7.62)
+		(at 106.68 55.88)
+		(size 34.29 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2899,7 +2899,7 @@
 		)
 		(uuid "0257cdfa-5088-43ef-b3f9-44ecadae8ca2")
 		(property "Sheetname" "Frontend Analog Switch"
-			(at 106.68 53.8984 0)
+			(at 106.68 55.1684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2911,7 +2911,7 @@
 			)
 		)
 		(property "Sheetfile" "frontend_analog_switch.kicad_sch"
-			(at 106.68 50.292 0)
+			(at 106.68 51.562 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2924,7 +2924,7 @@
 			)
 		)
 		(pin "VG_1V65" input
-			(at 128.27 62.23 270)
+			(at 128.27 66.04 270)
 			(uuid "b9882170-629b-4438-92ba-6a3b95c664c9")
 			(effects
 				(font
@@ -2935,7 +2935,7 @@
 			)
 		)
 		(pin "FSR_DRIVE[0..15]" output
-			(at 106.68 59.69 180)
+			(at 106.68 60.96 180)
 			(uuid "40a08a93-630f-4dc4-9252-84946c581462")
 			(effects
 				(font
@@ -3552,8 +3552,8 @@
 		)
 	)
 	(sheet
-		(at 106.68 120.65)
-		(size 34.29 7.62)
+		(at 106.68 115.57)
+		(size 34.29 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3579,7 +3579,7 @@
 			)
 		)
 		(property "Sheetfile" "tia_opamps.kicad_sch"
-			(at 106.68 128.8546 0)
+			(at 106.68 123.7746 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3614,7 +3614,7 @@
 			)
 		)
 		(pin "VG_1V65" input
-			(at 128.27 120.65 90)
+			(at 128.27 115.57 90)
 			(uuid "858bbb21-5ce7-4e68-ae7a-f9bd564d4aa8")
 			(effects
 				(font
@@ -3695,7 +3695,7 @@
 			)
 		)
 		(pin "VG_1V65" input
-			(at 180.34 109.22 90)
+			(at 189.23 109.22 90)
 			(uuid "10558b2b-2eec-4dc4-b320-4f18a3938760")
 			(effects
 				(font
