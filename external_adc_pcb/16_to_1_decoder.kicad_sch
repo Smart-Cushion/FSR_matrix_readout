@@ -1064,6 +1064,7 @@
 		(at 118.11 31.75 0)
 		(effects
 			(font
+				(face "Iosevka NF")
 				(size 1.27 1.27)
 			)
 		)
@@ -1933,272 +1934,299 @@
 		)
 		(uuid "fc2f2ceb-af4b-4e5b-92e9-fba6f7cd9c97")
 	)
-	(label "d2"
+	(label "D2"
 		(at 124.46 57.15 0)
 		(effects
 			(font
+				(face "Iosevka NF")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "041d5f72-ec82-42aa-92a0-413e7401835d")
 	)
-	(label "a2"
+	(label "A2"
 		(at 73.66 90.17 0)
 		(effects
 			(font
+				(face "Iosevka NF")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "045bbb1e-e4d4-4fd1-b635-aa4788bc8261")
 	)
-	(label "d5"
+	(label "D5"
 		(at 124.46 64.77 0)
 		(effects
 			(font
+				(face "Iosevka NF")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "0902915b-1651-4077-96dc-e4e7fa9c1487")
 	)
-	(label "a3"
+	(label "A3"
 		(at 88.9 58.42 180)
 		(effects
 			(font
+				(face "Iosevka NF")
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
 		(uuid "09551ff2-4604-4859-9a30-fe73efa53842")
 	)
-	(label "d14"
+	(label "D14"
 		(at 124.46 102.87 0)
 		(effects
 			(font
+				(face "Iosevka NF")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "11c28adb-4bbb-424e-8038-07b797c050b4")
 	)
-	(label "d11"
+	(label "D11"
 		(at 124.46 95.25 0)
 		(effects
 			(font
+				(face "Iosevka NF")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "1d63f41c-9d13-41e4-9dfc-b512306c3d84")
 	)
-	(label "~{a3}"
+	(label "~{A3}"
 		(at 113.03 125.73 0)
 		(effects
 			(font
+				(face "Iosevka NF")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "1d6b19ec-9261-4506-8e04-1315abd2ae2a")
 	)
-	(label "a0"
+	(label "A0"
 		(at 73.66 85.09 0)
 		(effects
 			(font
+				(face "Iosevka NF")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "1e0a1352-45c6-4e54-b24d-f2d4b3875f25")
 	)
-	(label "d10"
+	(label "D10"
 		(at 124.46 92.71 0)
 		(effects
 			(font
+				(face "Iosevka NF")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "25f29430-a012-4514-a9be-84ebd49de536")
 	)
-	(label "d0"
+	(label "D0"
 		(at 124.46 52.07 0)
 		(effects
 			(font
+				(face "Iosevka NF")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "2e70128d-af2a-4d8b-97c1-c04a7b35465b")
 	)
-	(label "a1"
+	(label "A1"
 		(at 73.66 87.63 0)
 		(effects
 			(font
+				(face "Iosevka NF")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "2f3cf0d7-1aa2-41d8-84d5-05047047e418")
 	)
-	(label "a3"
+	(label "A3"
 		(at 88.9 97.79 180)
 		(effects
 			(font
+				(face "Iosevka NF")
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
 		(uuid "4b4e1650-6604-4fe3-8085-c0da1a4c5c21")
 	)
-	(label "d6"
+	(label "D6"
 		(at 124.46 67.31 0)
 		(effects
 			(font
+				(face "Iosevka NF")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "5f7eec63-a815-4a9a-bcc1-a0dd242d3809")
 	)
-	(label "d7"
+	(label "D7"
 		(at 124.46 71.12 0)
 		(effects
 			(font
+				(face "Iosevka NF")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "6083f897-a859-4f58-b5b3-ecb43d22b0b1")
 	)
-	(label "d4"
+	(label "D4"
 		(at 124.46 62.23 0)
 		(effects
 			(font
+				(face "Iosevka NF")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "7466f42e-9259-4a84-9d33-92f8c579920b")
 	)
-	(label "d12"
+	(label "D12"
 		(at 124.46 97.79 0)
 		(effects
 			(font
+				(face "Iosevka NF")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "82d0db81-dd4d-4eee-bbf9-ceeaf6216701")
 	)
-	(label "~{a3}"
+	(label "~{A3}"
 		(at 88.9 93.98 180)
 		(effects
 			(font
+				(face "Iosevka NF")
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
 		(uuid "8c37ae4b-f69f-4c91-92eb-a51c9dd631c6")
 	)
-	(label "d9"
+	(label "D9"
 		(at 124.46 90.17 0)
 		(effects
 			(font
+				(face "Iosevka NF")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "8ddf2a4c-bc09-4eb6-a6c4-b00324878cc0")
 	)
-	(label "d3"
+	(label "D3"
 		(at 124.46 59.69 0)
 		(effects
 			(font
+				(face "Iosevka NF")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "9302d022-877c-44e2-ba3c-3c1c430e972e")
 	)
-	(label "d1"
+	(label "D1"
 		(at 124.46 54.61 0)
 		(effects
 			(font
+				(face "Iosevka NF")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "9658bce5-c325-429d-bd9b-5e5fe9dd89bf")
 	)
-	(label "d8"
+	(label "D8"
 		(at 124.46 87.63 0)
 		(effects
 			(font
+				(face "Iosevka NF")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "99038764-1673-4a57-8cdc-7702d7f1023c")
 	)
-	(label "d13"
+	(label "D13"
 		(at 124.46 100.33 0)
 		(effects
 			(font
+				(face "Iosevka NF")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "9ed06aef-4ad2-4c36-914e-b9076a8d1db8")
 	)
-	(label "~{a3}"
+	(label "~{A3}"
 		(at 88.9 62.23 180)
 		(effects
 			(font
+				(face "Iosevka NF")
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
 		(uuid "a7c437c5-fd55-4bd7-9e20-453de825db07")
 	)
-	(label "a3"
+	(label "A3"
 		(at 73.66 92.71 0)
 		(effects
 			(font
+				(face "Iosevka NF")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "a7fd8b30-4588-4768-82a1-6d0415d0eb1f")
 	)
-	(label "d15"
+	(label "D15"
 		(at 124.46 106.68 0)
 		(effects
 			(font
+				(face "Iosevka NF")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "ffe0db8b-a9c0-4a56-86b4-c3109e7e8f09")
 	)
-	(hierarchical_label "d[0..15]"
+	(hierarchical_label "D[0..15]"
 		(shape output)
 		(at 140.97 49.53 0)
 		(effects
 			(font
+				(face "Iosevka NF")
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
 		(uuid "59083358-a7d6-4101-9130-eb5af47044c6")
 	)
-	(hierarchical_label "a[0..3]"
+	(hierarchical_label "A[0..3]"
 		(shape input)
 		(at 59.69 82.55 180)
 		(effects
 			(font
+				(face "Iosevka NF")
 				(size 1.27 1.27)
 			)
 			(justify right)
@@ -2223,6 +2251,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2233,6 +2262,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -2245,6 +2275,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2256,6 +2287,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2267,6 +2299,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2300,6 +2333,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -2311,6 +2345,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -2323,6 +2358,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2334,6 +2370,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2345,6 +2382,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2382,6 +2420,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2392,6 +2431,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2403,6 +2443,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2414,6 +2455,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2425,6 +2467,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2460,6 +2503,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2470,6 +2514,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2481,6 +2526,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2492,6 +2538,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2503,6 +2550,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2537,6 +2585,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2547,6 +2596,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 				(justify right)
@@ -2559,6 +2609,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2570,6 +2621,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2581,6 +2633,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2615,6 +2668,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2625,6 +2679,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -2637,6 +2692,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2648,6 +2704,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2659,6 +2716,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2694,6 +2752,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2704,6 +2763,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -2716,6 +2776,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2727,6 +2788,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2738,6 +2800,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2771,6 +2834,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -2782,6 +2846,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -2794,6 +2859,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2805,6 +2871,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2816,6 +2883,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2853,6 +2921,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2863,6 +2932,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2874,6 +2944,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2885,6 +2956,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2896,6 +2968,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2929,6 +3002,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -2940,6 +3014,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -2952,6 +3027,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2963,6 +3039,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -2974,6 +3051,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -3011,6 +3089,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -3021,6 +3100,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -3032,6 +3112,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -3043,6 +3124,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -3054,6 +3136,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -3065,6 +3148,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -3076,6 +3160,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -3087,6 +3172,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -3168,6 +3254,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -3178,6 +3265,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -3189,6 +3277,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -3200,6 +3289,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -3211,6 +3301,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -3222,6 +3313,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -3233,6 +3325,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -3244,6 +3337,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -3291,6 +3385,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -3301,6 +3396,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 				(justify right)
@@ -3313,6 +3409,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -3324,6 +3421,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -3335,6 +3433,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -3369,6 +3468,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -3379,6 +3479,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -3390,6 +3491,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -3401,6 +3503,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -3412,6 +3515,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -3423,6 +3527,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -3434,6 +3539,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -3445,6 +3551,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -3528,6 +3635,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -3538,6 +3646,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -3549,6 +3658,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -3560,6 +3670,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
@@ -3571,6 +3682,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
 			)
