@@ -1,0 +1,8614 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "a5dd9950-e188-4507-a025-35ba0d28f1e8")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lcsc:RS2323XUTQK10"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RS2323XUTQK10"
+				(at 0.254 -8.636 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:WQFN-10_L1.8-W1.4-P0.40-BL"
+				(at 0.254 -11.176 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Others_RUNIC-RS2323XUTQK10_C255485.html"
+				(at 0.254 -13.716 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "RUNIC(润石)"
+				(at 0.254 -16.256 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "RS2323XUTQK10"
+				(at 0.254 -18.796 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C255485"
+				(at 0.254 -21.336 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Analog Switches / Multiplexers"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RS2323XUTQK10_0_1"
+				(rectangle
+					(start -10.16 7.62)
+					(end 10.16 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "RS2323XUTQK10_1_1"
+				(pin power_in line
+					(at 2.54 10.16 270)
+					(length 2.54)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 3.81 0)
+					(length 2.54)
+					(name "NO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -1.27 0)
+					(length 2.54)
+					(name "COM1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -3.81 0)
+					(length 2.54)
+					(name "IN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 1.27 0)
+					(length 2.54)
+					(name "NC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 10.16 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 1.27 180)
+					(length 2.54)
+					(name "NC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -3.81 180)
+					(length 2.54)
+					(name "IN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -1.27 180)
+					(length 2.54)
+					(name "COM2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 3.81 180)
+					(length 2.54)
+					(name "NO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "front end: connect V_{g} or GND to FSR mat\nalternative: BCT4223ETB-TR\n\nselected line will output GND, the rest will output V_{g} \nselected input is LOW, unselected input is HIGH"
+		(exclude_from_sim no)
+		(at 239.014 23.114 0)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4d1c1c14-bbef-47b5-bb17-2130d5aafe53")
+	)
+	(junction
+		(at 74.93 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04dc18ea-95f6-4746-b4ba-daf1415a053e")
+	)
+	(junction
+		(at 80.01 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39c3fc01-393d-4407-8fe0-602945ab3e25")
+	)
+	(junction
+		(at 80.01 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39d0e6f8-63d0-4d93-a794-c82e2b4cb54f")
+	)
+	(junction
+		(at 146.05 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c9db61a-529f-436d-99c0-bbfee7803cd2")
+	)
+	(junction
+		(at 74.93 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "684fce63-b402-434e-9e14-b1a80e36734e")
+	)
+	(junction
+		(at 146.05 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7225835e-be7b-4ff9-8445-f3654014bdb7")
+	)
+	(junction
+		(at 140.97 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d8582b5-abd2-4ec0-96d6-9164bda8fd68")
+	)
+	(junction
+		(at 146.05 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c9878f9-81f4-4e75-8536-fa92142c4477")
+	)
+	(junction
+		(at 80.01 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8dfa2ec0-051b-426c-81d8-254889db0947")
+	)
+	(junction
+		(at 74.93 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92cf813d-3ab3-4685-af48-061b0ed580ef")
+	)
+	(junction
+		(at 80.01 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a08514a5-116a-4160-b89d-ed8dc2a69504")
+	)
+	(junction
+		(at 74.93 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5126235-e2b8-474d-a7b0-9aaaed1024ec")
+	)
+	(junction
+		(at 140.97 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6deb042-15a4-4ad9-8709-03b2f32a84b5")
+	)
+	(junction
+		(at 140.97 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cefd5857-0522-4110-993a-ea6b585f44d9")
+	)
+	(junction
+		(at 140.97 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf09dd17-769b-40e6-88b6-1b751e54a4fe")
+	)
+	(junction
+		(at 146.05 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df988412-0ac9-4bd8-959e-4664071c3b11")
+	)
+	(wire
+		(pts
+			(xy 121.92 49.53) (xy 130.81 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "044a88b4-6f3f-4daa-8098-664a7dcdcb83")
+	)
+	(wire
+		(pts
+			(xy 55.88 49.53) (xy 64.77 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07d22340-c0c9-4932-9230-22efc5902ba4")
+	)
+	(wire
+		(pts
+			(xy 157.48 54.61) (xy 156.21 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "080fe294-3206-40c2-92ed-f98fb3b903ce")
+	)
+	(wire
+		(pts
+			(xy 156.21 86.36) (xy 165.1 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c4179fd-69b6-4bc7-bf2b-e647ad511b03")
+	)
+	(wire
+		(pts
+			(xy 54.61 52.07) (xy 64.77 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c86d841-7335-4074-8e44-a58fe578648a")
+	)
+	(wire
+		(pts
+			(xy 121.92 157.48) (xy 130.81 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0df234d0-f3ac-429f-9990-f2dc1f5b290b")
+	)
+	(wire
+		(pts
+			(xy 90.17 124.46) (xy 101.6 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e41cf16-e8ed-43b2-9576-e162ade136f4")
+	)
+	(wire
+		(pts
+			(xy 129.54 54.61) (xy 130.81 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1050c7f7-9507-470d-8655-1a7edfdc084a")
+	)
+	(wire
+		(pts
+			(xy 121.92 86.36) (xy 130.81 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "146a801a-33e1-48f7-9bb9-ef8c2b442282")
+	)
+	(wire
+		(pts
+			(xy 116.84 142.24) (xy 116.84 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14c870fe-67b5-4129-8956-182919428955")
+	)
+	(wire
+		(pts
+			(xy 146.05 114.3) (xy 146.05 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f995cff-56db-49c1-bc67-f8fd97dbd04e")
+	)
+	(wire
+		(pts
+			(xy 74.93 78.74) (xy 74.93 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21c2c181-e681-42a2-a24f-00d3db2470a6")
+	)
+	(wire
+		(pts
+			(xy 140.97 111.76) (xy 140.97 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "221ace13-3620-4c74-8848-1151e507443f")
+	)
+	(wire
+		(pts
+			(xy 140.97 147.32) (xy 140.97 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "255aba89-3654-4386-b688-8eef71723924")
+	)
+	(wire
+		(pts
+			(xy 116.84 71.12) (xy 116.84 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25c2211a-4e7a-4df7-bb9e-ef4d8cbb8566")
+	)
+	(wire
+		(pts
+			(xy 44.45 34.29) (xy 44.45 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2932a71a-03ca-4dee-bb6c-40d6480e106e")
+	)
+	(wire
+		(pts
+			(xy 52.07 88.9) (xy 64.77 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a140b66-d1de-4fe1-b6c7-d8a8ad0aa26a")
+	)
+	(wire
+		(pts
+			(xy 146.05 111.76) (xy 146.05 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b03caaa-171e-4916-8577-12d6c76dcdf0")
+	)
+	(wire
+		(pts
+			(xy 156.21 52.07) (xy 167.64 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f0b023f-ddf8-4a4e-9049-265fa33aed8e")
+	)
+	(wire
+		(pts
+			(xy 129.54 127) (xy 130.81 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37c466cd-cb91-4349-b9ee-b6ac676e5252")
+	)
+	(wire
+		(pts
+			(xy 119.38 160.02) (xy 130.81 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e4593a5-560e-46b4-95ad-671feeffff4a")
+	)
+	(wire
+		(pts
+			(xy 36.83 55.88) (xy 40.64 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e9e0ecf-3e5c-4aec-a0a0-e74adf57a496")
+	)
+	(wire
+		(pts
+			(xy 91.44 127) (xy 90.17 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41192a11-7e64-4315-9ab7-58404a145eaf")
+	)
+	(wire
+		(pts
+			(xy 146.05 78.74) (xy 146.05 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e8dd3ad-4585-4ae9-929f-59eb476a852e")
+	)
+	(wire
+		(pts
+			(xy 119.38 52.07) (xy 130.81 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ef1a384-30f0-48b3-a921-cbf57126a1b9")
+	)
+	(wire
+		(pts
+			(xy 140.97 39.37) (xy 140.97 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50308f66-fb24-4c32-b5e4-844d42265c2d")
+	)
+	(wire
+		(pts
+			(xy 157.48 57.15) (xy 156.21 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51e9d52d-69e8-4fcd-9755-abeaf6294e78")
+	)
+	(wire
+		(pts
+			(xy 156.21 124.46) (xy 167.64 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54fdcff3-af02-4b9b-ad96-7c807257586d")
+	)
+	(wire
+		(pts
+			(xy 74.93 76.2) (xy 74.93 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a0035cc-5a8a-445e-a745-4ba9e5fc97d4")
+	)
+	(wire
+		(pts
+			(xy 157.48 91.44) (xy 156.21 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b37bbd5-381d-4a60-bf0e-4b88515af457")
+	)
+	(wire
+		(pts
+			(xy 140.97 41.91) (xy 140.97 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ece1bba-0542-439d-86fa-81406b2261f4")
+	)
+	(wire
+		(pts
+			(xy 55.88 157.48) (xy 64.77 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6077a11d-07f2-46b0-b883-9da9dd3bc1e7")
+	)
+	(wire
+		(pts
+			(xy 156.21 160.02) (xy 167.64 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60e0514c-869b-4ae7-b8db-c77d9aeb85c9")
+	)
+	(wire
+		(pts
+			(xy 116.84 35.56) (xy 116.84 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6152a7c4-f45a-41a4-a5b4-c191fb48dc54")
+	)
+	(wire
+		(pts
+			(xy 156.21 88.9) (xy 167.64 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a0e69a7-9dd5-4eeb-bb98-2f3e5885ffd5")
+	)
+	(wire
+		(pts
+			(xy 80.01 147.32) (xy 80.01 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a1be890-f3a6-4c67-a86c-284fa826c2d2")
+	)
+	(wire
+		(pts
+			(xy 53.34 124.46) (xy 64.77 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a9c2fe7-327c-4675-9bd8-34b22ff4777c")
+	)
+	(wire
+		(pts
+			(xy 119.38 88.9) (xy 130.81 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fbbde1c-1f6e-4a2f-a814-4f4d2fdb08ee")
+	)
+	(wire
+		(pts
+			(xy 156.21 157.48) (xy 165.1 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73a59427-16fb-4a02-b1f7-35462c4269d8")
+	)
+	(wire
+		(pts
+			(xy 80.01 114.3) (xy 80.01 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73b5b9bf-23b9-4277-8d97-cfbd3513a922")
+	)
+	(wire
+		(pts
+			(xy 146.05 41.91) (xy 146.05 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73b88f75-ad0b-481e-83a2-0e0644fdb771")
+	)
+	(wire
+		(pts
+			(xy 74.93 114.3) (xy 74.93 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74a9844b-3269-4bf5-9418-b75a99eebe5c")
+	)
+	(wire
+		(pts
+			(xy 90.17 88.9) (xy 101.6 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75508b7d-bbff-44ed-992e-afce7fef1451")
+	)
+	(wire
+		(pts
+			(xy 74.93 39.37) (xy 74.93 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7960462a-73c2-42b6-8e29-e104c58a9bec")
+	)
+	(wire
+		(pts
+			(xy 44.45 72.39) (xy 44.45 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a26494c-fbf9-4129-9fd6-d848ca1a1b59")
+	)
+	(wire
+		(pts
+			(xy 45.72 142.24) (xy 45.72 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b7387e3-f8fb-4102-9d9b-48a20c443d06")
+	)
+	(wire
+		(pts
+			(xy 74.93 41.91) (xy 74.93 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cf2c5ea-e138-44eb-be20-30b63ee3728a")
+	)
+	(wire
+		(pts
+			(xy 119.38 124.46) (xy 130.81 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fcc318d-3cb4-4177-b6a6-8c1175595c43")
+	)
+	(wire
+		(pts
+			(xy 80.01 78.74) (xy 80.01 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80dfa00b-3c4f-4979-a494-a752a48d1f7a")
+	)
+	(wire
+		(pts
+			(xy 63.5 54.61) (xy 64.77 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8204c8c6-08aa-4bfc-9dc8-0a7998e4aa9e")
+	)
+	(wire
+		(pts
+			(xy 91.44 129.54) (xy 90.17 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83ab888f-3f64-4578-bf50-62227fbb6bc3")
+	)
+	(wire
+		(pts
+			(xy 74.93 111.76) (xy 74.93 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "868232d2-cf14-4522-97c3-4d25e6fce439")
+	)
+	(wire
+		(pts
+			(xy 157.48 93.98) (xy 156.21 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89b68fae-dba9-4090-b1b9-bc6a244c6fad")
+	)
+	(wire
+		(pts
+			(xy 157.48 165.1) (xy 156.21 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "943dd289-d8fb-41e2-9fb2-d91f8e5e9512")
+	)
+	(wire
+		(pts
+			(xy 90.17 52.07) (xy 102.87 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "946d7fdb-7797-4c34-8bb6-5f8be20aa564")
+	)
+	(wire
+		(pts
+			(xy 80.01 111.76) (xy 80.01 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "996e3de2-1a08-4ae9-81d1-1db92e78fe28")
+	)
+	(wire
+		(pts
+			(xy 116.84 106.68) (xy 116.84 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9da795bc-1b04-461d-9437-9f519b3617a2")
+	)
+	(wire
+		(pts
+			(xy 55.88 121.92) (xy 64.77 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0e26048-a47b-4ddd-a08e-5866c4b5d004")
+	)
+	(wire
+		(pts
+			(xy 129.54 165.1) (xy 130.81 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a251f6fc-92e8-4d8b-b637-d9d80abc61a5")
+	)
+	(wire
+		(pts
+			(xy 156.21 121.92) (xy 165.1 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a513f476-5c2e-437f-8417-6a17f5654cb1")
+	)
+	(wire
+		(pts
+			(xy 55.88 86.36) (xy 64.77 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a618f653-6259-41e0-81d1-6a2034eeb266")
+	)
+	(wire
+		(pts
+			(xy 121.92 121.92) (xy 130.81 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b010fdfe-19d0-4939-a6af-5ea677f77234")
+	)
+	(wire
+		(pts
+			(xy 140.97 114.3) (xy 140.97 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b31c9488-c26b-4887-8f26-d29f16685253")
+	)
+	(wire
+		(pts
+			(xy 91.44 54.61) (xy 90.17 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b55bf75d-5f91-434b-bb72-954f508367d8")
+	)
+	(wire
+		(pts
+			(xy 129.54 129.54) (xy 130.81 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9deb648-de11-4237-9d04-65ee6847d4b8")
+	)
+	(wire
+		(pts
+			(xy 74.93 147.32) (xy 74.93 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba6a54c6-f7d8-47c0-b2c2-214bffa023ac")
+	)
+	(wire
+		(pts
+			(xy 74.93 149.86) (xy 74.93 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbddefd0-ccb3-43d4-a02e-146e82321b82")
+	)
+	(wire
+		(pts
+			(xy 80.01 41.91) (xy 80.01 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf5afe67-1202-40b5-951f-eb5e4e496983")
+	)
+	(wire
+		(pts
+			(xy 53.34 160.02) (xy 64.77 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2252edb-b818-4cd3-9978-a7c4def92b63")
+	)
+	(wire
+		(pts
+			(xy 80.01 149.86) (xy 80.01 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c36ac084-f51e-4c89-9e5c-f6a1f4a29bca")
+	)
+	(wire
+		(pts
+			(xy 80.01 39.37) (xy 80.01 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4449ae9-1638-4a3c-b52a-5c6cf30a94ed")
+	)
+	(wire
+		(pts
+			(xy 91.44 165.1) (xy 90.17 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4bde9d1-7bd9-4c34-a202-03be648310af")
+	)
+	(wire
+		(pts
+			(xy 90.17 157.48) (xy 99.06 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5cdc9e4-0d8f-4d98-a207-9235c7d03d67")
+	)
+	(wire
+		(pts
+			(xy 157.48 127) (xy 156.21 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc6f04f4-a8ff-43b2-bd8d-3938b62bb8d0")
+	)
+	(wire
+		(pts
+			(xy 156.21 49.53) (xy 165.1 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cec9b194-8dd4-45de-87d5-923c3b0ca3fd")
+	)
+	(wire
+		(pts
+			(xy 80.01 76.2) (xy 80.01 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0c89242-5b16-4a8c-898c-90efd4c3d226")
+	)
+	(wire
+		(pts
+			(xy 91.44 57.15) (xy 90.17 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0f0f9dc-1d94-4c1f-ab38-05a5af6092e6")
+	)
+	(wire
+		(pts
+			(xy 90.17 121.92) (xy 99.06 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2cccb65-2e92-450f-80e0-34b89ec5eba3")
+	)
+	(wire
+		(pts
+			(xy 44.45 109.22) (xy 44.45 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3b21fa7-b3b9-4ce9-b11c-96cad3d8c4af")
+	)
+	(wire
+		(pts
+			(xy 63.5 165.1) (xy 64.77 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d45609b7-4115-4eeb-94da-3909685beba9")
+	)
+	(wire
+		(pts
+			(xy 146.05 76.2) (xy 146.05 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4d161ca-b73f-4673-a8ed-da0ba0bd0e87")
+	)
+	(wire
+		(pts
+			(xy 63.5 162.56) (xy 64.77 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d54556e9-4d7b-44ff-b85f-c644adce7b1d")
+	)
+	(wire
+		(pts
+			(xy 63.5 129.54) (xy 64.77 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8a62d33-2abd-42d9-bfa9-2646921d56b8")
+	)
+	(wire
+		(pts
+			(xy 90.17 160.02) (xy 101.6 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9b51273-6e3d-4630-9394-aba8d7febb68")
+	)
+	(wire
+		(pts
+			(xy 129.54 57.15) (xy 130.81 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9edf37c-4870-429a-a83e-5d23f4b6458a")
+	)
+	(wire
+		(pts
+			(xy 63.5 91.44) (xy 64.77 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daed44b2-6343-4ccc-87b3-417811fe7584")
+	)
+	(wire
+		(pts
+			(xy 63.5 57.15) (xy 64.77 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db06c46f-d2a1-4b61-b61e-c1a11dbf3925")
+	)
+	(wire
+		(pts
+			(xy 157.48 129.54) (xy 156.21 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db4bd1b7-4af8-4ca7-8057-299776352e2b")
+	)
+	(wire
+		(pts
+			(xy 140.97 149.86) (xy 140.97 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df22c568-455d-434c-9a09-ef05d08f1e2d")
+	)
+	(wire
+		(pts
+			(xy 91.44 91.44) (xy 90.17 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df58bdc9-cffb-43e3-9bc4-cdb62ccf78c3")
+	)
+	(wire
+		(pts
+			(xy 91.44 162.56) (xy 90.17 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e10ed200-7c20-4ff0-a250-f94dbfc274c0")
+	)
+	(wire
+		(pts
+			(xy 63.5 93.98) (xy 64.77 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2a264a5-92d6-44ea-b2ac-68e294a97cd5")
+	)
+	(wire
+		(pts
+			(xy 90.17 86.36) (xy 99.06 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3d1b03b-f4ca-43a5-81bb-1f427f4734e4")
+	)
+	(wire
+		(pts
+			(xy 140.97 78.74) (xy 140.97 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3e3923b-b211-4106-a9ff-d7246bf07739")
+	)
+	(wire
+		(pts
+			(xy 146.05 39.37) (xy 146.05 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e43d038f-8b30-4139-8007-0e622ccb6b24")
+	)
+	(wire
+		(pts
+			(xy 129.54 162.56) (xy 130.81 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e517e0af-c960-4871-a20c-c47cb78452fe")
+	)
+	(wire
+		(pts
+			(xy 91.44 93.98) (xy 90.17 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e76bcb00-48ce-4d19-b2cc-bac8b3d45059")
+	)
+	(wire
+		(pts
+			(xy 129.54 93.98) (xy 130.81 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea7b7633-9808-4842-9aea-b2b4c782eebc")
+	)
+	(wire
+		(pts
+			(xy 63.5 127) (xy 64.77 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec1c76ec-02e3-422f-8784-e085f8c5eb08")
+	)
+	(wire
+		(pts
+			(xy 146.05 147.32) (xy 146.05 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee7d25ce-4948-4b16-8d3f-ebfaeebe8768")
+	)
+	(wire
+		(pts
+			(xy 157.48 162.56) (xy 156.21 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eef220e5-4d5d-473c-acbd-f25b1ae88249")
+	)
+	(wire
+		(pts
+			(xy 140.97 76.2) (xy 140.97 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efcbfe0f-48d3-460c-bc08-be42caa8e960")
+	)
+	(wire
+		(pts
+			(xy 129.54 91.44) (xy 130.81 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f04421eb-ff9b-45d1-843f-8eac16a5bff3")
+	)
+	(wire
+		(pts
+			(xy 90.17 49.53) (xy 99.06 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f16dcd92-bd50-495e-9966-3f14b640bec4")
+	)
+	(wire
+		(pts
+			(xy 146.05 149.86) (xy 146.05 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4491308-f754-4cb4-a906-3cc2b9549a77")
+	)
+	(label "VG_1V65"
+		(at 116.84 102.87 0)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "04e947c1-488b-4704-a1d9-0926b38e2d57")
+	)
+	(label "FSR_DRIVE4"
+		(at 63.5 91.44 180)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1332b081-ce84-41f6-b44b-22f65b793cdc")
+	)
+	(label "FSR_DRIVE9"
+		(at 91.44 127 0)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "16b224fc-3863-4133-aa1b-9890111309bb")
+	)
+	(label "SEL8"
+		(at 63.5 129.54 180)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "196c3d49-9f9f-434b-933e-89d91057fef7")
+	)
+	(label "VG_1V65"
+		(at 99.06 157.48 0)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a7f9edc-db24-452f-904c-b239f5d56bf1")
+	)
+	(label "SEL9"
+		(at 91.44 129.54 0)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "23b9d007-9ae2-4419-a42f-5caa2a2ac122")
+	)
+	(label "VG_1V65"
+		(at 121.92 49.53 180)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "275b195f-0aa8-427f-a9a9-27c55f69f119")
+	)
+	(label "VG_1V65"
+		(at 165.1 121.92 0)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f07a948-f0bf-40ff-923d-42060e5fb90c")
+	)
+	(label "VG_1V65"
+		(at 44.45 30.48 0)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c5391b8-86a7-422f-9f79-d9a8413cab86")
+	)
+	(label "VG_1V65"
+		(at 116.84 138.43 0)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d8cc6de-6953-4813-afc5-ef033d763df5")
+	)
+	(label "VG_1V65"
+		(at 121.92 86.36 180)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "417e6309-b1df-49dc-88d7-db4199b81b9d")
+	)
+	(label "VG_1V65"
+		(at 40.64 55.88 0)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a93b2fb-64e4-4886-9207-a105baa58b5a")
+	)
+	(label "VG_1V65"
+		(at 99.06 121.92 0)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f676b28-e066-4191-bc2c-a4565ed4f163")
+	)
+	(label "VG_1V65"
+		(at 116.84 67.31 0)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "53d78d97-a13e-4cb4-8e2f-7f2f97c23695")
+	)
+	(label "FSR_DRIVE10"
+		(at 129.54 127 180)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5625ce10-1394-4bc9-a3cd-d167463c4b4f")
+	)
+	(label "SEL11"
+		(at 157.48 129.54 0)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58846358-b214-4006-8b7e-2054c4b8673c")
+	)
+	(label "FSR_DRIVE14"
+		(at 129.54 162.56 180)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "59c06be1-ccaa-4317-a47b-093d7efb44cd")
+	)
+	(label "VG_1V65"
+		(at 99.06 86.36 0)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ca3ec2e-f1fc-431d-94bc-1bcd0d485487")
+	)
+	(label "SEL13"
+		(at 91.44 165.1 0)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60609d0b-d633-45e0-b169-3a71d8f681e4")
+	)
+	(label "VG_1V65"
+		(at 165.1 157.48 0)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "608b5e7d-f03c-458f-9ea0-a4967b30f1c3")
+	)
+	(label "FSR_DRIVE2"
+		(at 129.54 54.61 180)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "60bd10ea-96dd-4daa-ba9f-2e8c981465e4")
+	)
+	(label "SEL10"
+		(at 129.54 129.54 180)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "62c2d06c-f77a-4fee-b8a2-885ad72154b1")
+	)
+	(label "VG_1V65"
+		(at 55.88 157.48 180)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "638fb835-ae0d-4aa4-a300-85806491ce78")
+	)
+	(label "FSR_DRIVE8"
+		(at 63.5 127 180)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "68ea42d8-12a9-4ac4-865a-6d86502d4dbb")
+	)
+	(label "SEL1"
+		(at 91.44 57.15 0)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69d1691c-6096-4125-8a7f-6505d05bd659")
+	)
+	(label "VG_1V65"
+		(at 165.1 86.36 0)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c980427-fe9f-4dcf-b6a0-d77c90153cd9")
+	)
+	(label "SEL2"
+		(at 129.54 57.15 180)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6f515788-a7f5-413b-ab1e-8bed85d65d94")
+	)
+	(label "SEL0"
+		(at 63.5 57.15 180)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "71b32586-3682-42e9-9574-d487d9b00ecf")
+	)
+	(label "VG_1V65"
+		(at 121.92 157.48 180)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7cf0c3ba-1e46-4d31-aa4d-f97c44a7314d")
+	)
+	(label "FSR_DRIVE3"
+		(at 157.48 54.61 0)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "83b0c611-4c31-4b9c-b132-084856f9c2bd")
+	)
+	(label "FSR_DRIVE6"
+		(at 129.54 91.44 180)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8e9c823f-657d-4948-bfcb-41dd9626fc56")
+	)
+	(label "SEL4"
+		(at 63.5 93.98 180)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9f8aa856-92ce-4acb-bd15-25e43506670d")
+	)
+	(label "VG_1V65"
+		(at 165.1 49.53 0)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5b4f023-afb6-4de0-899c-5ab872b2cb1c")
+	)
+	(label "FSR_DRIVE11"
+		(at 157.48 127 0)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af705051-4108-48c1-b9bc-07c43908b56a")
+	)
+	(label "FSR_DRIVE15"
+		(at 157.48 162.56 0)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b02858eb-a864-41de-8dbd-b031b36a3d60")
+	)
+	(label "SEL3"
+		(at 157.48 57.15 0)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b19ef0b5-1b41-4d55-811b-ec5cd7fe6878")
+	)
+	(label "FSR_DRIVE7"
+		(at 157.48 91.44 0)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b2528c19-c82a-4bd4-b387-9df86816a226")
+	)
+	(label "FSR_DRIVE5"
+		(at 91.44 91.44 0)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6b81435-38d9-45ed-b41a-9cdc43d75088")
+	)
+	(label "VG_1V65"
+		(at 99.06 49.53 0)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6d4103c-a46d-47af-800f-2a909ef2ec78")
+	)
+	(label "SEL6"
+		(at 129.54 93.98 180)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "baf80aa7-caa6-44f1-85b7-42886c135fdf")
+	)
+	(label "VG_1V65"
+		(at 44.45 105.41 0)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bbc175d3-3fe1-40e6-b013-cbef540f1344")
+	)
+	(label "VG_1V65"
+		(at 55.88 49.53 180)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bd832e46-e1a3-4bc8-aa6b-d5c739b4cc48")
+	)
+	(label "VG_1V65"
+		(at 116.84 31.75 0)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c03f2302-1336-409d-b6bd-422b9c346d5e")
+	)
+	(label "SEL14"
+		(at 129.54 165.1 180)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c28926b0-8b3e-4dc3-a098-d69d5a9c0f41")
+	)
+	(label "SEL12"
+		(at 63.5 165.1 180)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c42f6dd4-db89-4623-9085-b1040bc55e03")
+	)
+	(label "VG_1V65"
+		(at 44.45 68.58 0)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca5a5ec2-b3c0-4e63-9865-6263cd7dc5d1")
+	)
+	(label "VG_1V65"
+		(at 45.72 138.43 0)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb7f9a26-8e25-47df-b577-ff1a4581f5ef")
+	)
+	(label "FSR_DRIVE1"
+		(at 91.44 54.61 0)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc2917db-af3d-49cb-8610-939f8c74f28c")
+	)
+	(label "FSR_DRIVE0"
+		(at 63.5 54.61 180)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d10e6ca1-a00e-40e1-a9e1-e97fa64aed32")
+	)
+	(label "SEL5"
+		(at 91.44 93.98 0)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d515e844-295f-453b-b57b-31d5f39b5ad7")
+	)
+	(label "SEL15"
+		(at 157.48 165.1 0)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df0d3640-edaa-47d3-b762-3497d06c7f26")
+	)
+	(label "SEL7"
+		(at 157.48 93.98 0)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df276f8b-294e-4d47-9f0c-2a714b7fa966")
+	)
+	(label "VG_1V65"
+		(at 55.88 121.92 180)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e601e59e-da64-4b44-a448-255160b04db9")
+	)
+	(label "FSR_DRIVE12"
+		(at 63.5 162.56 180)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e80ec7c5-73c7-4de8-8abd-13440bcda4a4")
+	)
+	(label "VG_1V65"
+		(at 55.88 86.36 180)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ed2faa33-8ed4-4087-921f-7d03b13b1a87")
+	)
+	(label "FSR_DRIVE13"
+		(at 91.44 162.56 0)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f78ea584-7654-47ca-8a1e-808a6e91a53e")
+	)
+	(label "VG_1V65"
+		(at 121.92 121.92 180)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fd8ebee5-d63b-4d69-8535-df383af2b376")
+	)
+	(hierarchical_label "FSR_DRIVE[0..15]"
+		(shape output)
+		(at 186.69 50.8 0)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "336d912d-218c-4548-b46f-0fd283156817")
+	)
+	(hierarchical_label "VG_1V65"
+		(shape input)
+		(at 36.83 55.88 180)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1210545-841f-4e2a-9907-33d390b6d4df")
+	)
+	(hierarchical_label "SEL[0..15]"
+		(shape input)
+		(at 36.83 50.8 180)
+		(effects
+			(font
+				(face "Iosevka NF")
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f7a0750e-f53b-433c-9f5a-f81283157f0c")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 140.97 111.76 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "07092caf-0d43-4750-8f65-30c13e1001e7")
+		(property "Reference" "#PWR040"
+			(at 140.97 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 107.442 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a0e3384-3f45-4906-8be6-6527923653ec")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 80.01 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "096a44fe-d681-44cc-9973-c3129739c034")
+		(property "Reference" "#PWR035"
+			(at 80.01 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 80.01 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 80.01 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aec14aa0-d54b-42e6-8bdc-1a98f45bedd6")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 119.38 160.02 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13a3989b-94c0-4b05-a058-aeb70824aea6")
+		(property "Reference" "#PWR050"
+			(at 113.03 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 160.0199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7df4f143-3cff-4238-bea7-21e4dac3a128")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 116.84 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "155a8c61-3c3f-4dd0-8f44-a8c25b01b7f0")
+		(property "Reference" "C12"
+			(at 121.158 146.812 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220nF"
+			(at 122.428 148.844 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 116.84 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8490d4d9-f3f3-4d1f-bd55-3b75554aaad8")
+		)
+		(pin "2"
+			(uuid "2d30b3bd-0ea3-4517-bf3b-93b15e94146a")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 160.02 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19330e39-c7d6-47d9-be38-873be9754917")
+		(property "Reference" "#PWR044"
+			(at 46.99 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 160.0199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 53.34 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7fe2afe2-90be-4dbf-8156-df17d2701f9b")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 77.47 78.74 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1eb839e6-8dfe-48e8-91a3-5b2a76ab74b9")
+		(property "Reference" "C11"
+			(at 83.058 76.708 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 84.328 78.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 77.47 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "97dc1f9e-2e88-4b62-a548-f21be415b582")
+		)
+		(pin "2"
+			(uuid "946e448a-e429-40b7-b7c2-89fb8cdb6ab8")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "227181aa-1066-4065-ad8d-7ee0aeb71cf4")
+		(property "Reference" "#PWR018"
+			(at 44.45 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "28ffceba-a442-4131-9ff1-0ebf21429698")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 88.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "293367bb-07f6-4737-87ff-31d0b0ba2f8f")
+		(property "Reference" "#PWR031"
+			(at 173.99 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 88.9001 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "115d8b54-b9c1-4d0c-9ba9-0ff600f0910b")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 119.38 88.9 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c8a2c14-a194-495d-bff7-0285720e3b86")
+		(property "Reference" "#PWR026"
+			(at 113.03 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 88.8999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "157ebb49-3bae-4420-a839-61e471ed40d9")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 199.39 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d5e99f7-68b1-4c31-a766-c454eaeabd69")
+		(property "Reference" "#PWR065"
+			(at 199.39 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.39 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "40d5faf2-6e00-43c4-8e5c-f224f44c3765")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 143.51 41.91 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2db11314-d258-4dc9-a9e1-e51d587219b1")
+		(property "Reference" "C8"
+			(at 149.098 39.878 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 150.368 41.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 143.51 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "729c4df0-4130-444e-91d1-b13fbaf4f8e1")
+		)
+		(pin "2"
+			(uuid "8daecd4f-b29b-44f8-83a6-56738a92c62f")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 52.07 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "324e28f4-093a-4ee7-9ba7-e05fe5e60d17")
+		(property "Reference" "#PWR015"
+			(at 173.99 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 52.0701 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92554ba6-40b4-4edc-a264-f332ff4bd079")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 140.97 39.37 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "32923be2-2d5f-42b3-80d9-d3e17abcd763")
+		(property "Reference" "#PWR013"
+			(at 140.97 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 35.052 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e2af75d8-209b-4796-bd4c-14721826510c")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc:RS2323XUTQK10")
+		(at 77.47 161.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "353c48cc-2100-4f19-9815-3e04a6d02cb0")
+		(property "Reference" "U12"
+			(at 77.47 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RS2323XUTQK10"
+			(at 77.47 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:WQFN-10_L1.8-W1.4-P0.40-BL"
+			(at 77.724 172.466 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_RUNIC-RS2323XUTQK10_C255485.html"
+			(at 77.724 175.006 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "RUNIC(润石)"
+			(at 77.724 177.546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RS2323XUTQK10"
+			(at 77.724 180.086 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C255485"
+			(at 77.724 182.626 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d173bc8-9635-479c-beb5-4b076bc02f5d")
+		)
+		(pin "9"
+			(uuid "f5d2e7e9-7bd6-4705-a832-8f1915be3077")
+		)
+		(pin "4"
+			(uuid "70cf9378-bf32-4cc1-bbea-5c58dfe7913c")
+		)
+		(pin "10"
+			(uuid "b2b38a93-7992-4b6f-97e0-0e8cff9a1deb")
+		)
+		(pin "7"
+			(uuid "46fa140c-4f81-4f23-a215-665751538ac8")
+		)
+		(pin "8"
+			(uuid "83511e88-a879-4d51-ba55-0f5e91605ef3")
+		)
+		(pin "2"
+			(uuid "fe9b1674-6583-4a62-8492-d42b54d604d9")
+		)
+		(pin "6"
+			(uuid "319b3875-1d6d-4122-b280-e5697cbcb204")
+		)
+		(pin "5"
+			(uuid "e86f6de8-a044-4f35-b6f5-2b7678ecdff6")
+		)
+		(pin "3"
+			(uuid "ad5c0857-32c4-4de3-bccd-804c4e7993cb")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 88.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a18eae5-8c12-440b-97eb-c5657772701b")
+		(property "Reference" "#PWR025"
+			(at 107.95 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 88.9001 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "edbe5243-d40f-421b-bd16-9ccae02750b1")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 143.51 149.86 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3b168893-382d-4093-bf18-119f1073b29e")
+		(property "Reference" "C26"
+			(at 149.098 147.828 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 150.368 149.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 143.51 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3492bcf3-a1cb-4ffb-ae0b-e42ab20d47fc")
+		)
+		(pin "2"
+			(uuid "264bc1f1-2c08-456c-b54e-83fbdeb8e859")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 74.93 39.37 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bc8fcd6-d77d-4772-83b2-33cae118f593")
+		(property "Reference" "#PWR09"
+			(at 74.93 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 74.93 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5d5c136c-5027-47ce-9100-9b6a0d75df53")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3db80c42-14ea-4ab6-81f8-dde3b9165521")
+		(property "Reference" "#PWR016"
+			(at 44.45 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0d99cd3e-d3dc-4940-9c3c-b28d9da7b207")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 77.47 114.3 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3ef4eec9-7207-40e6-850c-b957eebc0042")
+		(property "Reference" "C17"
+			(at 83.058 112.268 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 84.328 114.3 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 77.47 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fbd3aea1-e98e-4f67-ba88-f7dd4435d9b8")
+		)
+		(pin "2"
+			(uuid "b8a798a4-6687-4a2b-8086-ced7964f28b1")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 116.84 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "46188c2e-c6d1-43b7-8146-2438965b335e")
+		(property "Reference" "C15"
+			(at 121.158 75.692 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220nF"
+			(at 122.428 77.724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 116.84 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "47ae0f50-64dd-4994-b12e-cf93bbb251fe")
+		)
+		(pin "2"
+			(uuid "f8996c27-f0c2-4603-baaa-c5a0038c3b10")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 124.46 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "483431c8-42b7-48bb-9da9-5cd14130d466")
+		(property "Reference" "#PWR037"
+			(at 107.95 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 124.4601 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7cae6bb3-29ab-4142-8330-b9915babe572")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 199.39 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d5fcbe9-e16e-485f-a4bc-d341e80af5e8")
+		(property "Reference" "C29"
+			(at 201.93 96.5262 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 201.93 99.0662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 199.39 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08370df0-99aa-4428-ab5f-20a63bdf93d1")
+		)
+		(pin "2"
+			(uuid "4a8d08f7-cec9-4265-948e-16e71b6d368a")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 160.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4dfb32a7-faab-4642-8abd-b3526622e864")
+		(property "Reference" "#PWR049"
+			(at 107.95 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 160.0201 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d510959e-d09d-4f62-ad85-92873a1d2c19")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc:RS2323XUTQK10")
+		(at 77.47 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "511b26ec-0743-46ae-9206-141282b29afe")
+		(property "Reference" "U8"
+			(at 77.47 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RS2323XUTQK10"
+			(at 77.47 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:WQFN-10_L1.8-W1.4-P0.40-BL"
+			(at 77.724 101.346 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_RUNIC-RS2323XUTQK10_C255485.html"
+			(at 77.724 103.886 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "RUNIC(润石)"
+			(at 77.724 106.426 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RS2323XUTQK10"
+			(at 77.724 108.966 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C255485"
+			(at 77.724 111.506 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a8c5d741-77fd-435e-a81f-18517e9d5583")
+		)
+		(pin "9"
+			(uuid "cb97f2b8-2f21-406e-81ec-aa3857a59b3d")
+		)
+		(pin "4"
+			(uuid "f9f02fd6-4fcc-455c-bcde-96be316b9b48")
+		)
+		(pin "10"
+			(uuid "7f58f4a3-3b75-44e4-bcf5-e6a05c7e3d18")
+		)
+		(pin "7"
+			(uuid "537c398c-fa4c-4749-a951-324a88aee6ef")
+		)
+		(pin "8"
+			(uuid "3efdd672-6b96-46a2-8c91-691b34c9db34")
+		)
+		(pin "2"
+			(uuid "de6a7e0d-83bd-42fc-bec8-870f53115c7a")
+		)
+		(pin "6"
+			(uuid "0a88c302-98d7-4859-84f3-8a1cdd447ac7")
+		)
+		(pin "5"
+			(uuid "5f4a4cc5-642a-41a2-b692-500c7a478171")
+		)
+		(pin "3"
+			(uuid "63f9fb12-b354-4d8a-8369-9038ddb13f45")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 143.51 114.3 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "528fc6de-857e-4524-a863-cdcfe7042753")
+		(property "Reference" "C20"
+			(at 149.098 112.268 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 150.368 114.3 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 143.51 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab96c7bb-22fe-420d-b8bb-81b4c93e9f99")
+		)
+		(pin "2"
+			(uuid "8257b8eb-afec-496e-9bc9-0273cde80fad")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 146.05 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "57f91877-bcd4-4b29-a1f8-eaaba0b1daa1")
+		(property "Reference" "#PWR014"
+			(at 146.05 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 146.05 34.798 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 146.05 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d55eaa2-a8c1-4672-beb1-f771085345b7")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.87 52.07 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59534be5-bfe3-4b9f-872f-4fb922b02b04")
+		(property "Reference" "#PWR011"
+			(at 109.22 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 52.0701 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec972c1c-5f29-4525-93ba-2aac155108c0")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 116.84 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "605d138f-91a9-46d8-94be-b2d67257b2b7")
+		(property "Reference" "#PWR024"
+			(at 116.84 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "830b78da-4802-4380-9025-e6a8d10073ad")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc:RS2323XUTQK10")
+		(at 143.51 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6597a457-bb8d-4e55-a067-c40e3faa3bce")
+		(property "Reference" "U11"
+			(at 143.51 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RS2323XUTQK10"
+			(at 143.51 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:WQFN-10_L1.8-W1.4-P0.40-BL"
+			(at 143.764 136.906 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_RUNIC-RS2323XUTQK10_C255485.html"
+			(at 143.764 139.446 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "RUNIC(润石)"
+			(at 143.764 141.986 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RS2323XUTQK10"
+			(at 143.764 144.526 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C255485"
+			(at 143.764 147.066 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e86c9bef-4d14-43de-923c-c88d036d84b8")
+		)
+		(pin "9"
+			(uuid "3dec53e5-e01c-4f2a-9d8b-5222f64369c3")
+		)
+		(pin "4"
+			(uuid "6d453128-8f2c-4583-9df3-df75e82301fd")
+		)
+		(pin "10"
+			(uuid "a45d7c8d-d4c3-4bc9-8b70-80544f5fa568")
+		)
+		(pin "7"
+			(uuid "feaf30d7-6bca-4d62-bc57-3350e1becf12")
+		)
+		(pin "8"
+			(uuid "328263f7-5bcc-4f08-b73b-cb5b6346ebe1")
+		)
+		(pin "2"
+			(uuid "92f84d00-338c-485c-9071-16a85709cebd")
+		)
+		(pin "6"
+			(uuid "b9910f0e-09a2-4d8b-92ca-a4ab123c12dd")
+		)
+		(pin "5"
+			(uuid "c994e3c3-ca2d-455d-af53-595d6a21c833")
+		)
+		(pin "3"
+			(uuid "0ad0aa0e-4ef7-42e6-a651-668c1bf75678")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 116.84 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "65d01fa8-0f04-4188-8996-8d77f27c742b")
+		(property "Reference" "C13"
+			(at 121.158 111.252 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220nF"
+			(at 122.428 113.284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 116.84 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1e57e26d-dc39-4a82-9450-cdfb15e0e8bd")
+		)
+		(pin "2"
+			(uuid "57944bbc-6e99-4051-af56-f65ff3dbeafb")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 160.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6720ff5d-45c0-4ba1-8c91-ed9885562806")
+		(property "Reference" "#PWR055"
+			(at 173.99 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 160.0201 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a3b358e-b7cb-42a6-9d6e-d89482f0a40a")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 140.97 76.2 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "673ea8f9-c26d-437b-9083-2f35a310d67c")
+		(property "Reference" "#PWR028"
+			(at 140.97 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 71.882 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "84b5112f-a712-4d01-b8fd-229fbb99d28d")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 124.46 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67bc0bda-9dcd-480b-8c8d-0b186af7dfbe")
+		(property "Reference" "#PWR032"
+			(at 46.99 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 124.4599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 53.34 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "657c873e-fcf0-4d31-9950-1417974d6100")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 146.05 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "699bdb88-3a6e-4401-a55c-b0ff5317e52f")
+		(property "Reference" "#PWR041"
+			(at 146.05 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 146.05 107.188 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 146.05 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "19b5b366-cc07-4893-bc96-034a7602d143")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7daeeb81-22fb-45b2-b53e-9b05fed15fd2")
+		(property "Reference" "#PWR017"
+			(at 44.45 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d98f2d2e-0d77-412c-bf5f-77ff26f3b753")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc:RS2323XUTQK10")
+		(at 77.47 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "845bc1ed-b552-48ba-a02e-2ef61b3ce848")
+		(property "Reference" "U6"
+			(at 77.47 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RS2323XUTQK10"
+			(at 77.47 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:WQFN-10_L1.8-W1.4-P0.40-BL"
+			(at 77.724 64.516 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_RUNIC-RS2323XUTQK10_C255485.html"
+			(at 77.724 67.056 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "RUNIC(润石)"
+			(at 77.724 69.596 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RS2323XUTQK10"
+			(at 77.724 72.136 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C255485"
+			(at 77.724 74.676 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a5a606c7-8486-45e6-9219-4f7c530d95c5")
+		)
+		(pin "9"
+			(uuid "903295fc-3f38-4a5e-b90d-05bcc4589f08")
+		)
+		(pin "4"
+			(uuid "b0bd794d-d322-43b7-8caa-c42d0842f960")
+		)
+		(pin "10"
+			(uuid "8419b783-004d-4635-9ae4-843c9ff5dad4")
+		)
+		(pin "7"
+			(uuid "e3532695-944d-4fde-b5bc-31b39838d953")
+		)
+		(pin "8"
+			(uuid "7b41e60d-ee0f-4f20-9b75-3a73a518b1ae")
+		)
+		(pin "2"
+			(uuid "e109cda7-1679-412b-b4f0-e1fcf2a11d5b")
+		)
+		(pin "6"
+			(uuid "98f2d885-c276-4b0d-aaa0-236fee90cf17")
+		)
+		(pin "5"
+			(uuid "6925f995-229a-4f16-a572-6a2a2e62bf63")
+		)
+		(pin "3"
+			(uuid "283e4432-bf98-4558-9edb-d6315d9caf6a")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 140.97 147.32 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8473e0cf-c010-433d-ac3d-c17992531ec2")
+		(property "Reference" "#PWR052"
+			(at 140.97 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 143.002 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0375252e-fce9-44da-a789-8b2fc49dc4e7")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 116.84 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "84756e4f-487d-4240-9277-2e513834f04a")
+		(property "Reference" "#PWR030"
+			(at 116.84 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c7956fb0-6396-476f-90f7-031ed6d1799d")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 44.45 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "89c9eb46-98b7-4660-bf33-ac680cce0943")
+		(property "Reference" "C7"
+			(at 48.768 76.962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220nF"
+			(at 50.038 78.994 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 44.45 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "25a7b391-ba69-45b6-8c9e-07c3ba9f3c30")
+		)
+		(pin "2"
+			(uuid "139d008d-a2db-415c-a070-ca4053966e88")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 146.05 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8bdbb05f-fef8-48ae-87f9-16d1bc03649c")
+		(property "Reference" "#PWR029"
+			(at 146.05 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 145.796 71.882 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 146.05 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4cdffa1d-3a3d-4ba1-bd0f-9b04d3aacd17")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 199.39 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "99695e1c-8d54-47be-a6bd-5f43fe43e013")
+		(property "Reference" "#PWR064"
+			(at 199.39 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 199.39 90.678 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 199.39 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e68a5f6c-8a5c-4fa6-973f-275dda7281ae")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 44.45 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9c42d347-d7f8-4e90-862f-930470fd693e")
+		(property "Reference" "C9"
+			(at 48.768 113.792 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220nF"
+			(at 50.038 115.824 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 44.45 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "861b5a09-4ffd-45e7-a23a-9e91e222d162")
+		)
+		(pin "2"
+			(uuid "4a23b944-30b3-4db2-bd25-6a41f8cd7834")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc:RS2323XUTQK10")
+		(at 77.47 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f767753-4379-4e9d-9ff1-9f11314cc359")
+		(property "Reference" "U10"
+			(at 77.47 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RS2323XUTQK10"
+			(at 77.47 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:WQFN-10_L1.8-W1.4-P0.40-BL"
+			(at 77.724 136.906 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_RUNIC-RS2323XUTQK10_C255485.html"
+			(at 77.724 139.446 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "RUNIC(润石)"
+			(at 77.724 141.986 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RS2323XUTQK10"
+			(at 77.724 144.526 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C255485"
+			(at 77.724 147.066 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "01d8b5a7-30bb-437f-80ed-dcf0387c68a6")
+		)
+		(pin "9"
+			(uuid "fdc95e19-4038-4c22-ac88-5e4f503cb025")
+		)
+		(pin "4"
+			(uuid "f165e5fc-6625-44bb-b3e5-cddbc4615979")
+		)
+		(pin "10"
+			(uuid "3184efbd-1c18-48cb-9605-2699b7769668")
+		)
+		(pin "7"
+			(uuid "60cdfb3f-e979-4807-8722-fa71423607d8")
+		)
+		(pin "8"
+			(uuid "0108cfca-c497-4409-99d5-33e47d374915")
+		)
+		(pin "2"
+			(uuid "d7e1496d-c7ad-47ea-a518-e0a4fe5a820a")
+		)
+		(pin "6"
+			(uuid "9c152873-c68b-41c0-8cd4-4743bc1965e7")
+		)
+		(pin "5"
+			(uuid "ecb5dc16-666f-4280-87d3-c8c6e546cd51")
+		)
+		(pin "3"
+			(uuid "41f07a55-75d6-435e-916f-b9974c5d122c")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc:RS2323XUTQK10")
+		(at 143.51 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0c5ad67-e3ca-402f-9744-87253ec1616e")
+		(property "Reference" "U9"
+			(at 143.51 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RS2323XUTQK10"
+			(at 143.51 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:WQFN-10_L1.8-W1.4-P0.40-BL"
+			(at 143.764 101.346 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_RUNIC-RS2323XUTQK10_C255485.html"
+			(at 143.764 103.886 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "RUNIC(润石)"
+			(at 143.764 106.426 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RS2323XUTQK10"
+			(at 143.764 108.966 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C255485"
+			(at 143.764 111.506 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "90dbe053-41a2-4acd-8cd4-a9c4410f5c5e")
+		)
+		(pin "9"
+			(uuid "291ab5b5-514f-451d-9936-898b48ba6292")
+		)
+		(pin "4"
+			(uuid "1e8c6a75-702c-45db-91a4-cead88025df4")
+		)
+		(pin "10"
+			(uuid "db16c90d-795a-4c23-892e-8bb9c852dacb")
+		)
+		(pin "7"
+			(uuid "3e15583f-41aa-4e22-8548-edeb4a1cbd8f")
+		)
+		(pin "8"
+			(uuid "cb21326d-6a0a-4d66-afbc-911f90a28cb5")
+		)
+		(pin "2"
+			(uuid "4eb2245c-7fba-4ef9-a060-ab2704375bdf")
+		)
+		(pin "6"
+			(uuid "abd53438-05ec-4468-b2bb-a859ddd848a0")
+		)
+		(pin "5"
+			(uuid "0fb6fd51-4dbe-4b76-bf4b-c0485bebd839")
+		)
+		(pin "3"
+			(uuid "589423ac-3102-4cc8-b770-65ea2db2bc9d")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 80.01 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6fd08b7-8f18-409d-9983-878410688560")
+		(property "Reference" "#PWR023"
+			(at 80.01 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 80.01 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 80.01 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e9caff38-bad5-4ead-8acf-9a012d7fa7c6")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 146.05 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ab595ecf-a3df-431d-81b5-f7ad85256fc6")
+		(property "Reference" "#PWR053"
+			(at 146.05 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 146.05 142.748 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 146.05 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bed71e7a-22f2-48a0-b3dd-2eafa695de96")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 116.84 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aeb00625-a13e-4e55-891e-7a437f3743cd")
+		(property "Reference" "#PWR027"
+			(at 116.84 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a26dd98b-8223-4c49-9f14-c8f8dff784bf")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 143.51 78.74 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b0941b20-866b-4153-93d9-687455943ebb")
+		(property "Reference" "C14"
+			(at 149.098 76.708 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 150.368 78.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 143.51 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8687bde8-4ce7-4979-9d2e-8299dc20ea92")
+		)
+		(pin "2"
+			(uuid "9758a478-1f9b-4ffe-a649-146e4b35fee5")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 44.45 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b6ac6fa6-ca76-4061-875c-342fed5cd2e0")
+		(property "Reference" "C6"
+			(at 48.768 38.862 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220nF"
+			(at 50.038 40.894 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 44.45 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "77612aa3-86aa-4eff-af31-1de30ee0d239")
+		)
+		(pin "2"
+			(uuid "79ed460c-472d-42cd-8bd4-2f0a368c8202")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 116.84 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b6bfe39d-8995-421c-8cd3-6717ed6803b9")
+		(property "Reference" "C16"
+			(at 121.158 40.132 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220nF"
+			(at 122.428 42.164 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 116.84 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "93ed8ba8-807e-4111-b1ee-c6268035fb2e")
+		)
+		(pin "2"
+			(uuid "c6476e6c-a9e8-4bdc-a6b1-b3b6af94267d")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 54.61 52.07 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6ef53a6-1acf-4c1c-9a4c-8c4217216842")
+		(property "Reference" "#PWR010"
+			(at 48.26 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 52.0699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "339c2418-223b-40fe-8894-c3321fc5c5c1")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.07 88.9 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcdc327b-18e9-48b8-8540-b1a5f1c282b0")
+		(property "Reference" "#PWR020"
+			(at 45.72 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 88.8999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ded94d6a-4d70-49bc-bf72-17767f99894c")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 119.38 52.07 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c50c2a82-8fb0-4dc3-8aba-56e714f821f6")
+		(property "Reference" "#PWR012"
+			(at 113.03 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 52.0699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "28d77f89-3ba3-45b3-906e-b6f734633878")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 74.93 147.32 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c64747b0-4797-4709-8225-6b8030e6cd94")
+		(property "Reference" "#PWR046"
+			(at 74.93 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 74.93 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9c37f4f5-6f86-4d21-a86b-cd48b4748258")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 74.93 111.76 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c65d297b-a0a3-4f1c-9d3a-1590a69262ab")
+		(property "Reference" "#PWR034"
+			(at 74.93 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 74.93 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "89f8544a-afb0-49c0-bfbd-28faa5f9c7ab")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 74.93 76.2 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6eaa861-39bf-4397-87aa-b3b1fae721e8")
+		(property "Reference" "#PWR022"
+			(at 74.93 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 74.93 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "59058afd-53ea-4e38-9dbe-e9925f10f7ce")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 45.72 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c9de03c7-8e5e-4a9a-96e0-e20034e4079e")
+		(property "Reference" "#PWR019"
+			(at 45.72 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.72 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e32ae2b7-6f68-4cc8-90ac-4d9f6cb262b5")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 116.84 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d12c31bc-e56e-4a3b-a1a4-a6316380c6d9")
+		(property "Reference" "#PWR021"
+			(at 116.84 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "27e8671a-4f94-42d8-936f-9f8e18eb5baf")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 45.72 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d22bfd64-ed71-4b47-9845-4a83aa5a6876")
+		(property "Reference" "C10"
+			(at 50.038 146.812 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220nF"
+			(at 51.308 148.844 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 45.72 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd35596b-cf7f-4719-a138-6eaa954eb9a9")
+		)
+		(pin "2"
+			(uuid "b53c4761-6939-4c81-9514-d75c8d37744c")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 80.01 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d62e8799-f0d1-4ba8-907b-16c421eaad53")
+		(property "Reference" "#PWR08"
+			(at 80.01 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 80.01 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 80.01 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "28125b87-98f4-4ade-9c17-c8f8b36a6cba")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 119.38 124.46 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7d79179-a7c4-49de-8a50-cb52fadad977")
+		(property "Reference" "#PWR038"
+			(at 113.03 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 124.4599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c1bb7881-1518-474e-a278-63589deecac5")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 77.47 149.86 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dfb8e9d3-c4f2-4abe-b52f-09172aaa7f48")
+		(property "Reference" "C23"
+			(at 83.058 147.828 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 84.328 149.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 77.47 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cbda2c58-3404-45c1-8cc2-63d9927b6eba")
+		)
+		(pin "2"
+			(uuid "9f1d4ac5-7ac6-4ca1-8eb0-1203c2686d7a")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc:RS2323XUTQK10")
+		(at 143.51 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e46add4a-22f9-4fd5-9cac-d582532c6f2d")
+		(property "Reference" "U7"
+			(at 143.51 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RS2323XUTQK10"
+			(at 143.51 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:WQFN-10_L1.8-W1.4-P0.40-BL"
+			(at 143.764 64.516 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_RUNIC-RS2323XUTQK10_C255485.html"
+			(at 143.764 67.056 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "RUNIC(润石)"
+			(at 143.764 69.596 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RS2323XUTQK10"
+			(at 143.764 72.136 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C255485"
+			(at 143.764 74.676 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8b2cf1c6-3719-4cfb-b66f-f6f97cb4bc21")
+		)
+		(pin "9"
+			(uuid "3bb8543a-d626-4c90-85d9-0d5de377d6c7")
+		)
+		(pin "4"
+			(uuid "ea76eed5-f7ae-408b-ac9f-a5d655c5dfcc")
+		)
+		(pin "10"
+			(uuid "5581cdc8-6eff-493b-91e9-f1139dee18a4")
+		)
+		(pin "7"
+			(uuid "06786690-ec78-4e33-928b-2563c8b52cef")
+		)
+		(pin "8"
+			(uuid "2a9201e1-ed69-4467-8d96-95f8e1993a66")
+		)
+		(pin "2"
+			(uuid "f9616a49-5676-41ea-bc33-008f9cd19670")
+		)
+		(pin "6"
+			(uuid "c35377ee-bf8f-4b28-84a2-5ff80558dc06")
+		)
+		(pin "5"
+			(uuid "9233e2f6-5637-46f7-b204-2696b41abab7")
+		)
+		(pin "3"
+			(uuid "b403775a-b5dc-48e6-8105-d218a98ed5de")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 80.01 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e90afa8b-2a0a-4bbc-bc9d-8758c67942ee")
+		(property "Reference" "#PWR047"
+			(at 80.01 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 80.01 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 80.01 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d7b993e0-e55e-4311-8299-da56fade00b5")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 77.47 41.91 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ea5ee885-d6cf-4e45-a830-77f40d84b7f8")
+		(property "Reference" "C4"
+			(at 83.058 39.878 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 84.328 41.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 77.47 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c05d3dc-0a0c-4c94-901b-e19bb76447f6")
+		)
+		(pin "2"
+			(uuid "5bbe505b-61bc-40c2-9c56-bae18d858563")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 124.46 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7cff881-ebb6-4c55-aa37-8ecaf350a8a1")
+		(property "Reference" "#PWR043"
+			(at 173.99 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 124.4601 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "835344d2-817a-4cc0-b0d0-672b1dc67a9b")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc:RS2323XUTQK10")
+		(at 143.51 161.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb7d6a99-fc16-454d-9882-9773205d161f")
+		(property "Reference" "U13"
+			(at 143.51 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RS2323XUTQK10"
+			(at 143.51 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:WQFN-10_L1.8-W1.4-P0.40-BL"
+			(at 143.764 172.466 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_RUNIC-RS2323XUTQK10_C255485.html"
+			(at 143.764 175.006 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "RUNIC(润石)"
+			(at 143.764 177.546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RS2323XUTQK10"
+			(at 143.764 180.086 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C255485"
+			(at 143.764 182.626 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Iosevka NF")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dca61b2e-e444-4afb-8876-115f750267c0")
+		)
+		(pin "9"
+			(uuid "488bccb3-f65c-4e47-8140-54a230bd165a")
+		)
+		(pin "4"
+			(uuid "3d106bd6-53cb-4e7e-b926-decf2eb06089")
+		)
+		(pin "10"
+			(uuid "b00b1101-bd9f-49ba-ac77-c3c22c809eda")
+		)
+		(pin "7"
+			(uuid "5524ee83-ca54-4ea1-8843-0661eb668851")
+		)
+		(pin "8"
+			(uuid "05762d2c-38fa-4a22-b329-2bd225728039")
+		)
+		(pin "2"
+			(uuid "4256d66d-24e3-4589-b108-807b2c1df956")
+		)
+		(pin "6"
+			(uuid "3783ad8e-be24-4500-9221-e25469d1410f")
+		)
+		(pin "5"
+			(uuid "3277b9ac-79f0-4ae9-9873-2a402ef46595")
+		)
+		(pin "3"
+			(uuid "8a2e7400-68c8-42cd-af94-f8afe5c05fa0")
+		)
+		(instances
+			(project "FSR_matrix_readout"
+				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
