@@ -25,7 +25,7 @@
 	(fp_line (start -0.80 1.45) (end -0.80 -1.45) (layer F.CrtYd) (width 0.05))
 	(fp_line (start -0.80 -1.45) (end 0.80 -1.45) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 0.80 -1.45) (end 0.80 1.45) (layer F.CrtYd) (width 0.05))
-	(model "${KIPRJMOD}/lcsc_parts/easyeda2kicad.3dshapes/SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR.wrl"
+	(model "${KIPRJMOD}/../lcsc_parts/easyeda2kicad.3dshapes/SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 270))

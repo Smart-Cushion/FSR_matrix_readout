@@ -40,7 +40,7 @@
 	(fp_line (start 11.53 -0.10) (end 11.53 5.20) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 11.53 5.20) (end -11.47 5.20) (layer F.CrtYd) (width 0.05))
 	(fp_line (start -11.47 5.20) (end -11.47 -0.10) (layer F.CrtYd) (width 0.05))
-	(model "${KIPRJMOD}/lcsc_parts/easyeda2kicad.3dshapes/FPC-SMD_16P-P1.00_AFA07-S16FCC-00.wrl"
+	(model "${KIPRJMOD}/../lcsc_parts/easyeda2kicad.3dshapes/FPC-SMD_16P-P1.00_AFA07-S16FCC-00.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

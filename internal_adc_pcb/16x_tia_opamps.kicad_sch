@@ -4018,7 +4018,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 30.48 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4110,7 +4110,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 81.28 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -4200,7 +4200,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 97.79 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4292,7 +4292,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 50.8 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4563,7 +4563,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 129.54 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -4689,7 +4689,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 167.386 76.454 90)
 			(hide yes)
 			(show_name no)
@@ -4779,7 +4779,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 93.726 127.254 90)
 			(hide yes)
 			(show_name no)
@@ -4961,7 +4961,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 170.18 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -5054,7 +5054,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 96.52 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -5146,7 +5146,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 33.02 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -5239,7 +5239,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 170.18 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -5419,7 +5419,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 83.82 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -5548,7 +5548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 170.18 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -5638,7 +5638,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 167.386 184.404 90)
 			(hide yes)
 			(show_name no)
@@ -5729,7 +5729,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 157.48 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5857,7 +5857,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 198.12 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -6039,7 +6039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 96.52 127 0)
 			(hide yes)
 			(show_name no)
@@ -6132,7 +6132,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 97.79 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6222,7 +6222,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 167.386 143.764 90)
 			(hide yes)
 			(show_name no)
@@ -6312,7 +6312,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 167.386 164.084 90)
 			(hide yes)
 			(show_name no)
@@ -6402,7 +6402,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 167.386 123.444 90)
 			(hide yes)
 			(show_name no)
@@ -6492,7 +6492,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 94.996 56.134 90)
 			(hide yes)
 			(show_name no)
@@ -6583,7 +6583,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 85.09 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -6798,7 +6798,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 94.996 35.814 90)
 			(hide yes)
 			(show_name no)
@@ -6890,7 +6890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 123.19 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6980,7 +6980,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 167.386 56.134 90)
 			(hide yes)
 			(show_name no)
@@ -7072,7 +7072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 123.19 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -7163,7 +7163,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 157.48 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -7292,7 +7292,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 97.79 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -7385,7 +7385,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 96.52 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -7478,7 +7478,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 55.88 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -7607,7 +7607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 57.15 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7733,7 +7733,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 94.996 96.774 90)
 			(hide yes)
 			(show_name no)
@@ -7823,7 +7823,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 167.386 35.814 90)
 			(hide yes)
 			(show_name no)
@@ -8005,7 +8005,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 97.79 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -8096,7 +8096,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 85.09 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -8223,7 +8223,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 157.48 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -8352,7 +8352,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 170.18 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -8442,7 +8442,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 93.726 188.214 90)
 			(hide yes)
 			(show_name no)
@@ -8534,7 +8534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 196.85 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -8627,7 +8627,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 170.18 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -8720,7 +8720,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 170.18 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -8811,7 +8811,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 157.48 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -9027,7 +9027,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 157.48 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -9155,7 +9155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 49.53 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -9335,7 +9335,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 157.48 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -9462,7 +9462,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 85.09 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -9677,7 +9677,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 93.726 167.894 90)
 			(hide yes)
 			(show_name no)
@@ -9946,7 +9946,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 83.82 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -10072,7 +10072,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 167.386 96.774 90)
 			(hide yes)
 			(show_name no)
@@ -10165,7 +10165,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 102.87 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -10253,7 +10253,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 83.82 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -10382,7 +10382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 96.52 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -10473,7 +10473,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 157.48 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10599,7 +10599,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 94.996 76.454 90)
 			(hide yes)
 			(show_name no)
@@ -10690,7 +10690,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 157.48 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -10816,7 +10816,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 93.726 147.574 90)
 			(hide yes)
 			(show_name no)
@@ -10907,7 +10907,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 83.82 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -11034,7 +11034,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 85.09 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -11163,7 +11163,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 170.18 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -11256,7 +11256,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 129.54 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -11385,7 +11385,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 170.18 96.52 0)
 			(hide yes)
 			(show_name no)
