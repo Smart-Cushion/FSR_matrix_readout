@@ -6768,6 +6768,7 @@
 	(symbol
 		(lib_id "Device:R_US")
 		(at 93.98 35.56 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6777,7 +6778,7 @@
 		(dnp no)
 		(uuid "7b72cef8-db4a-4596-9950-705794d1b774")
 		(property "Reference" "R9"
-			(at 88.392 35.56 90)
+			(at 99.568 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6788,7 +6789,7 @@
 			)
 		)
 		(property "Value" "330R"
-			(at 90.932 35.56 90)
+			(at 97.028 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6799,7 +6800,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 94.996 35.814 90)
+			(at 92.964 35.814 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

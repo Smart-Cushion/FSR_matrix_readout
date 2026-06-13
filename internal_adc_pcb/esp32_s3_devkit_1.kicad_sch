@@ -1631,7 +1631,7 @@
 		)
 		(uuid "079feceb-9340-43a3-ac00-1f49388ac266")
 	)
-	(label "ADC0"
+	(label "ADC1"
 		(at 92.71 64.77 180)
 		(effects
 			(font
@@ -1731,7 +1731,7 @@
 		)
 		(uuid "854f1fdd-5863-41db-8a09-e802ef41440b")
 	)
-	(label "ADC1"
+	(label "ADC0"
 		(at 92.71 67.31 180)
 		(effects
 			(font
