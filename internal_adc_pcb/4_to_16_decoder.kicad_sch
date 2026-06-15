@@ -2256,7 +2256,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3V3D"
 			(at 125.73 85.0899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2693,7 +2693,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3V3D"
 			(at 125.73 120.6499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2772,7 +2772,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3V3D"
 			(at 125.73 49.5299 90)
 			(show_name no)
 			(do_not_autoplace no)

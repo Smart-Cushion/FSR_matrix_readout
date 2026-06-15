@@ -1738,16 +1738,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 109.22) (xy 44.45 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3b21fa7-b3b9-4ce9-b11c-96cad3d8c4af")
-	)
-	(wire
-		(pts
 			(xy 63.5 165.1) (xy 64.77 165.1)
 		)
 		(stroke
@@ -2447,17 +2437,6 @@
 		(uuid "baf80aa7-caa6-44f1-85b7-42886c135fdf")
 	)
 	(label "VG"
-		(at 44.45 105.41 0)
-		(effects
-			(font
-				(face "Iosevka NF")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bbc175d3-3fe1-40e6-b013-cbef540f1344")
-	)
-	(label "VG"
 		(at 55.88 49.53 180)
 		(effects
 			(font
@@ -2767,7 +2746,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "096a44fe-d681-44cc-9973-c3129739c034")
 		(property "Reference" "#PWR015"
 			(at 80.01 115.57 0)
@@ -2781,8 +2759,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 80.01 106.68 0)
+		(property "Value" "+3V3"
+			(at 77.978 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2790,6 +2768,7 @@
 					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2958,7 +2937,7 @@
 				)
 			)
 		)
-		(property "Value" "220nF"
+		(property "Value" "22nF"
 			(at 122.428 148.844 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3201,94 +3180,6 @@
 			(project "fsr_matrix_readout_internal_adc"
 				(path "/a2a8c34e-3adf-4a95-8857-b713f7048029/307fdc1f-8268-4192-8310-111e61425162"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 44.45 114.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "227181aa-1066-4065-ad8d-7ee0aeb71cf4")
-		(property "Reference" "#PWR03"
-			(at 44.45 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Iosevka NF")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 44.45 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Iosevka NF")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Iosevka NF")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Iosevka NF")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Iosevka NF")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "28ffceba-a442-4131-9ff1-0ebf21429698")
-		)
-		(instances
-			(project "FSR_matrix_readout"
-				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-			(project "fsr_matrix_readout_internal_adc"
-				(path "/a2a8c34e-3adf-4a95-8857-b713f7048029/307fdc1f-8268-4192-8310-111e61425162"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -4451,7 +4342,7 @@
 				)
 			)
 		)
-		(property "Value" "220nF"
+		(property "Value" "22nF"
 			(at 122.428 77.724 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5056,7 +4947,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+3V3"
 			(at 146.05 34.798 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5472,7 +5363,7 @@
 				)
 			)
 		)
-		(property "Value" "220nF"
+		(property "Value" "22nF"
 			(at 122.428 113.284 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5831,7 +5722,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+3V3"
 			(at 146.05 107.188 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6333,7 +6224,7 @@
 				)
 			)
 		)
-		(property "Value" "220nF"
+		(property "Value" "22nF"
 			(at 50.038 78.994 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6424,7 +6315,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+3V3"
 			(at 145.796 71.882 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6512,7 +6403,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+3V3"
 			(at 199.39 90.678 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6572,96 +6463,6 @@
 			(project "fsr_matrix_readout_internal_adc"
 				(path "/a2a8c34e-3adf-4a95-8857-b713f7048029/307fdc1f-8268-4192-8310-111e61425162"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 44.45 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9c42d347-d7f8-4e90-862f-930470fd693e")
-		(property "Reference" "C3"
-			(at 48.768 113.792 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Iosevka NF")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220nF"
-			(at 50.038 115.824 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Iosevka NF")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 44.45 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Iosevka NF")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Iosevka NF")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 44.45 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Iosevka NF")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "861b5a09-4ffd-45e7-a23a-9e91e222d162")
-		)
-		(pin "2"
-			(uuid "4a23b944-30b3-4db2-bd25-6a41f8cd7834")
-		)
-		(instances
-			(project "FSR_matrix_readout"
-				(path "/6dca5e5c-f676-465d-98c9-14af6047a226/0257cdfa-5088-43ef-b3f9-44ecadae8ca2"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-			(project "fsr_matrix_readout_internal_adc"
-				(path "/a2a8c34e-3adf-4a95-8857-b713f7048029/307fdc1f-8268-4192-8310-111e61425162"
-					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -6979,7 +6780,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a6fd08b7-8f18-409d-9983-878410688560")
 		(property "Reference" "#PWR014"
 			(at 80.01 80.01 0)
@@ -6993,8 +6793,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 80.01 71.12 0)
+		(property "Value" "+3V3"
+			(at 78.232 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7002,6 +6802,7 @@
 					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7081,7 +6882,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+3V3"
 			(at 146.05 142.748 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7346,7 +7147,7 @@
 				)
 			)
 		)
-		(property "Value" "220nF"
+		(property "Value" "22nF"
 			(at 50.038 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7436,7 +7237,7 @@
 				)
 			)
 		)
-		(property "Value" "220nF"
+		(property "Value" "22nF"
 			(at 122.428 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8239,7 +8040,7 @@
 				)
 			)
 		)
-		(property "Value" "220nF"
+		(property "Value" "22nF"
 			(at 51.308 148.844 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8395,7 +8196,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d62e8799-f0d1-4ba8-907b-16c421eaad53")
 		(property "Reference" "#PWR013"
 			(at 80.01 43.18 0)
@@ -8409,8 +8209,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 80.01 34.29 0)
+		(property "Value" "+3V3"
+			(at 78.486 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8418,6 +8218,7 @@
 					(face "Iosevka NF")
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8828,7 +8629,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+3V3"
 			(at 80.01 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)

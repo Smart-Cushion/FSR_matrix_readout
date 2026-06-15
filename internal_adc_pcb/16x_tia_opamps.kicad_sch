@@ -4006,7 +4006,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220nF"
+		(property "Value" "22nF"
 			(at 27.686 80.264 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5134,7 +5134,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220nF"
+		(property "Value" "22nF"
 			(at 30.226 172.974 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5845,7 +5845,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220nF"
+		(property "Value" "22nF"
 			(at 195.326 151.384 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8523,7 +8523,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220nF"
+		(property "Value" "22nF"
 			(at 194.056 78.994 0)
 			(show_name no)
 			(do_not_autoplace no)
