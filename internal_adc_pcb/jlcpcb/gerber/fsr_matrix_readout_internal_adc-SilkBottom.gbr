@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,10.0.3*%
-%TF.CreationDate,2026-06-15T17:18:57-04:00*%
+%TF.CreationDate,2026-06-15T19:15:35-04:00*%
 %TF.ProjectId,fsr_matrix_readout_internal_adc,6673725f-6d61-4747-9269-785f72656164,rev?*%
 %TF.SameCoordinates,Original*%
-%TF.FileFunction,Soldermask,Bot*%
-%TF.FilePolarity,Negative*%
+%TF.FileFunction,Legend,Bot*%
+%TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 10.0.3) date 2026-06-15 17:18:57*
+G04 Created by KiCad (PCBNEW 10.0.3) date 2026-06-15 19:15:35*
 %MOMM*%
 %LPD*%
 G01*
@@ -16,6 +16,7 @@ G04 APERTURE LIST*
 %ADD12C,1.700000*%
 %ADD13C,3.800000*%
 G04 APERTURE END LIST*
+%LPC*%
 D10*
 %TO.C,TP_FSR_DRIVE0*%
 X95650000Y-29875000D03*
@@ -47,7 +48,7 @@ X140225000Y-85244000D03*
 X140225000Y-87784000D03*
 %TD*%
 D10*
-%TO.C,TP_VG*%
+%TO.C,TP_VG1*%
 X113000000Y-88000000D03*
 %TD*%
 D13*
@@ -64,7 +65,7 @@ X135025000Y-29425000D03*
 %TO.C,TP_FSR_I_OUT0*%
 X99525000Y-59250000D03*
 %TD*%
-%TO.C,TP_VG*%
+%TO.C,TP_VG2*%
 X103375000Y-53950000D03*
 %TD*%
 D11*
@@ -97,4 +98,5 @@ D13*
 %TO.C,H2*%
 X140000000Y-29450000D03*
 %TD*%
+%LPD*%
 M02*
