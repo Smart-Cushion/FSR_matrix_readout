@@ -44,7 +44,7 @@
 	(fp_line (start -2.00 -1.75) (end 2.00 -1.75) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 2.00 -1.75) (end 2.00 1.75) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 2.00 1.75) (end -2.00 1.75) (layer F.CrtYd) (width 0.05))
-	(model "${KIPRJMOD}/../lcsc_parts/easyeda2kicad.3dshapes/VQFN-16_L4.0-W3.5-P0.50-BL-EP.wrl"
+	(model "${KIPRJMOD}/../../lcsc_parts/easyeda2kicad.3dshapes/VQFN-16_L4.0-W3.5-P0.50-BL-EP.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

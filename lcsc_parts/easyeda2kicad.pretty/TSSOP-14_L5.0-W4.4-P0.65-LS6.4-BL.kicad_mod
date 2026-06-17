@@ -37,7 +37,7 @@
 	(fp_line (start -2.50 2.20) (end 2.50 2.20) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 2.50 2.20) (end 2.50 -2.20) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 2.50 -2.20) (end -2.50 -2.20) (layer F.CrtYd) (width 0.05))
-	(model "${KIPRJMOD}/../lcsc_parts/easyeda2kicad.3dshapes/TSSOP-14_L5.0-W4.4-H1.0-LS6.4-P0.65.wrl"
+	(model "${KIPRJMOD}/../../lcsc_parts/easyeda2kicad.3dshapes/TSSOP-14_L5.0-W4.4-H1.0-LS6.4-P0.65.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 270))
