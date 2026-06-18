@@ -1,5 +1,5 @@
-#include "driver/dedic_gpio.h"
 #include "decoder.h"
+#include "driver/dedic_gpio.h"
 #include "esp_err.h"
 #include "pin_defs.h"
 #include <stddef.h>
@@ -19,6 +19,6 @@ void fsr_drive_decoder_init() {
     ESP_ERROR_CHECK(dedic_gpio_new_bundle(&bundle_config, &bundle));
 }
 
-void fsr_drive_decoder_write(uint32_t addr){
+void fsr_drive_decoder_write(uint32_t addr) {
     dedic_gpio_bundle_write(bundle, BUNDLE_MASK, addr);
 }

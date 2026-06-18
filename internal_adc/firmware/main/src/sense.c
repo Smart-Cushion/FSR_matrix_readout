@@ -7,11 +7,12 @@
 #include <stddef.h>
 #include <stdint.h>
 
-
 static constexpr uint8_t MAX_SUPERSAMPLE_CNT = 32;
-static constexpr size_t MAX_FRAME_SAMPLE_CNT = NUM_FSR_SENSES * MAX_SUPERSAMPLE_CNT;
-static constexpr size_t MAX_FRAME_BUF_SIZE = MAX_FRAME_SAMPLE_CNT * SOC_ADC_DIGI_RESULT_BYTES;
-static constexpr size_t MAX_STORE_BUF_SIZE = MAX_FRAME_BUF_SIZE  * 2;
+static constexpr size_t MAX_FRAME_SAMPLE_CNT =
+    NUM_FSR_SENSES * MAX_SUPERSAMPLE_CNT;
+static constexpr size_t MAX_FRAME_BUF_SIZE =
+    MAX_FRAME_SAMPLE_CNT * SOC_ADC_DIGI_RESULT_BYTES;
+static constexpr size_t MAX_STORE_BUF_SIZE = MAX_FRAME_BUF_SIZE * 2;
 static constexpr uint8_t MAX_DRAIN_READ_CNT = 4;
 static uint8_t adc_dma_buf[MAX_STORE_BUF_SIZE];
 static size_t used_frame_sample_cnt = 0;
@@ -25,7 +26,9 @@ static void fsr_sense_drain_pool() {
     uint32_t read_size = 0;
 
     for (uint8_t i = 0; i < MAX_DRAIN_READ_CNT; i++) {
-        if (adc_continuous_read(handle, adc_dma_buf, MAX_STORE_BUF_SIZE, &read_size, 0) != ESP_OK) {
+        if (adc_continuous_read(
+                handle, adc_dma_buf, MAX_STORE_BUF_SIZE, &read_size, 0
+            ) != ESP_OK) {
             break;
         }
     }
@@ -37,9 +40,13 @@ static void fsr_sense_discard_samples() {
 
     while (discarded_size < discard_buf_size) {
         size_t remaining_size = discard_buf_size - discarded_size;
-        uint32_t read_buf_size = remaining_size < MAX_STORE_BUF_SIZE ? remaining_size : MAX_STORE_BUF_SIZE;
+        uint32_t read_buf_size = remaining_size < MAX_STORE_BUF_SIZE
+                                     ? remaining_size
+                                     : MAX_STORE_BUF_SIZE;
 
-        ESP_ERROR_CHECK(adc_continuous_read(handle, adc_dma_buf, read_buf_size, &read_size, read_timeout_ms));
+        ESP_ERROR_CHECK(adc_continuous_read(
+            handle, adc_dma_buf, read_buf_size, &read_size, read_timeout_ms
+        ));
         discarded_size += read_size;
     }
 }
@@ -47,9 +54,11 @@ static void fsr_sense_discard_samples() {
 void fsr_sense_init(fsr_sense_cfg_t cfg) {
     used_frame_sample_cnt = cfg.supersample_cnt * NUM_FSR_SENSES;
     used_frame_buf_size = used_frame_sample_cnt * SOC_ADC_DIGI_RESULT_BYTES;
-    discard_buf_size = cfg.discard_rounds * NUM_FSR_SENSES * SOC_ADC_DIGI_RESULT_BYTES;
+    discard_buf_size =
+        cfg.discard_rounds * NUM_FSR_SENSES * SOC_ADC_DIGI_RESULT_BYTES;
     ESP_ERROR_CHECK(cfg.sample_freq_hz > 0 ? ESP_OK : ESP_ERR_INVALID_ARG);
-    read_timeout_ms = (used_frame_sample_cnt * 10000 + cfg.sample_freq_hz - 1) / cfg.sample_freq_hz;
+    read_timeout_ms = (used_frame_sample_cnt * 10000 + cfg.sample_freq_hz - 1) /
+                      cfg.sample_freq_hz;
 
     adc_continuous_handle_cfg_t adc_handle_cfg = {
         .max_store_buf_size = MAX_STORE_BUF_SIZE,
@@ -89,15 +98,21 @@ void fsr_sense_read_frame(uint16_t *buf) {
         fsr_drive_decoder_write(drive);
         fsr_sense_discard_samples();
 
-        ESP_ERROR_CHECK(adc_continuous_read(handle, adc_dma_buf, used_frame_buf_size, &read_size, read_timeout_ms));
-        ESP_ERROR_CHECK(adc_continuous_parse_data(handle, adc_dma_buf, read_size, parsed_data, &parsed_sample_cnt));
+        ESP_ERROR_CHECK(adc_continuous_read(
+            handle, adc_dma_buf, used_frame_buf_size, &read_size,
+            read_timeout_ms
+        ));
+        ESP_ERROR_CHECK(adc_continuous_parse_data(
+            handle, adc_dma_buf, read_size, parsed_data, &parsed_sample_cnt
+        ));
 
         for (uint32_t i = 0; i < parsed_sample_cnt; i++) {
             if (!parsed_data[i].valid) {
                 continue;
             }
 
-            int8_t sense = FSR_SENSE_INDEX_LUT[parsed_data[i].unit][parsed_data[i].channel];
+            int8_t sense = FSR_SENSE_INDEX_LUT[parsed_data[i].unit]
+                                              [parsed_data[i].channel];
             if (sense < 0) {
                 continue;
             }

@@ -6,10 +6,9 @@
 #include "wiresens.h"
 #include <stdint.h>
 
-
 void app_main(void) {
     static uint16_t frame_buf[NUM_FSR_DRIVES * NUM_FSR_SENSES];
-    
+
     fsr_drive_decoder_init();
     fsr_sense_init((fsr_sense_cfg_t){
         .supersample_cnt = 16,
