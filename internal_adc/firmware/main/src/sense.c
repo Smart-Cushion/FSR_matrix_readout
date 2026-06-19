@@ -84,7 +84,8 @@ void fsr_sense_init(fsr_sense_cfg_t cfg) {
 }
 
 void fsr_sense_read_frame(uint16_t *buf) {
-    adc_continuous_data_t parsed_data[MAX_FRAME_SAMPLE_CNT] = {};
+    static adc_continuous_data_t parsed_data[MAX_FRAME_SAMPLE_CNT] = {};
+    // use static to prevent stack overflow
 
     ESP_ERROR_CHECK(adc_continuous_start(handle));
 
