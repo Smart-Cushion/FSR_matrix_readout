@@ -84,11 +84,14 @@ necessary:
 
 - `serialPort` must match the USB-to-UART bridge detected by the operating
   system, such as `COM5` on Windows or `/dev/ttyUSB0` on Linux.
-- `baudrate` must match `FSR_WIRESENS_DEFAULT_BAUD_RATE` in
-  `main/include/wiresens.h` if the firmware value was changed.
-- `numNodes` must match the firmware's nodes-per-packet setting. The default is
-  64.
-- The sensor `id` must match the firmware sensor ID. The default is 1.
+- `baudrate` must match the `baud_rate` selected in the
+  `fsr_wiresens_cfg_t` passed to `fsr_wiresens_init()`. When
+  `fsr_wiresens_default_cfg()` is used without an override, the default is
+  `921600`.
+- `numNodes` must match the selected `nodes_per_packet`. When the default
+  configuration is used without an override, the value is 64.
+- The sensor `id` must match the selected `sensor_id`. The default
+  configuration uses 1.
 
 ### 3. Start the backend
 
