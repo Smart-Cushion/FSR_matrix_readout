@@ -12,8 +12,8 @@ static dedic_gpio_bundle_config_t bundle_config = {
         .out_en = 1,
     }
 };
+// changing only the four address bits provided to the decoder
 static constexpr uint32_t BUNDLE_MASK = 0b1111;
-// there are 4 address bits
 
 void fsr_drive_decoder_init() {
     ESP_ERROR_CHECK(dedic_gpio_new_bundle(&bundle_config, &bundle));

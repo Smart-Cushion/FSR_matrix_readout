@@ -9,4 +9,12 @@ typedef struct {
 } fsr_sense_cfg_t;
 
 void fsr_sense_init(fsr_sense_cfg_t cfg);
+
+/**
+ * Read one complete drive-major frame.
+ *
+ * The caller must provide space for every drive/sense pair. Element
+ * [drive * NUM_FSR_SENSES + sense] receives the averaged ADC sample. This
+ * function blocks until the complete frame has been acquired.
+ */
 void fsr_sense_read_frame(uint16_t *buf);

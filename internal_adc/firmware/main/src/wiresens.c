@@ -38,6 +38,7 @@ static constexpr size_t WIRESENS_PACKET_BUF_SIZE =
 
 static uint8_t tx_packet_buf[WIRESENS_PACKET_BUF_SIZE];
 static fsr_wiresens_cfg_t wiresens_cfg;
+// Sequence number advances per packet, not per complete sensor frame.
 static uint32_t packet_number = 0;
 
 fsr_wiresens_cfg_t fsr_wiresens_default_cfg(
@@ -156,7 +157,8 @@ esp_err_t fsr_wiresens_send_frame(const uint16_t *frame) {
     uint16_t nodes_per_packet = wiresens_cfg.nodes_per_packet;
     if (nodes_per_packet == 0 ||
         WIRESENS_FRAME_NODE_CNT % nodes_per_packet != 0) {
-        // make sure that every packet sends the same amount of node
+        // The backend expects fixed-size packets; do not emit a short final
+        // packet for a frame that is not evenly divisible.
         return ESP_ERR_INVALID_STATE;
     }
 

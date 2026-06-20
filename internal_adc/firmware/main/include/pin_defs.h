@@ -1,6 +1,7 @@
 #pragma once
 #include "hal/adc_types.h"
 #include "soc/gpio_num.h"
+#include "soc/soc_caps.h"
 #include <stddef.h>
 #include <stdint.h>
 
@@ -19,6 +20,8 @@ typedef struct {
     adc_channel_t channel;
 } fsr_sense_adc_map_t;
 
+// Single source of truth for the sense-to-ADC mapping. The list generates
+// both the forward configuration table and the reverse DMA lookup table.
 #define FSR_SENSE_ADC_MAP_ITEMS(X)                                             \
     X(0, ADC_UNIT_1, ADC_CHANNEL_1)                                            \
     X(1, ADC_UNIT_1, ADC_CHANNEL_0)                                            \
@@ -49,25 +52,29 @@ static const fsr_sense_adc_map_t FSR_SENSE_ADC_MAP[] = {
 #define FSR_SENSE_INDEX_ENTRY(index, adc_unit, adc_channel)                    \
     [adc_unit][adc_channel] = index,
 
-// ESP-IDF builds with GNU C; range initializers let unmapped ADC channels use
-// -1.
+// ESP-IDF builds with GNU C; range initializers set unmapped ADC channels to
+// -1, and the generated entries intentionally override the mapped channels.
+
+// provided the adc unit and the adc channel, this LUT will return the
+// corresponding physical sensor index.
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Woverride-init"
-static const int8_t FSR_SENSE_INDEX_LUT[2][11] = {
-    [0 ... 1] =
-        {
-            [0 ... 10] = -1,
-        },
-    FSR_SENSE_ADC_MAP_ITEMS(FSR_SENSE_INDEX_ENTRY)
+static const int8_t
+    FSR_SENSE_INDEX_LUT[SOC_ADC_PERIPH_NUM][SOC_ADC_MAX_CHANNEL_NUM] = {
+        [0 ... SOC_ADC_PERIPH_NUM - 1] =
+            {
+                [0 ... SOC_ADC_MAX_CHANNEL_NUM - 1] = -1,
+            },
+        FSR_SENSE_ADC_MAP_ITEMS(FSR_SENSE_INDEX_ENTRY)
 };
 #pragma GCC diagnostic pop
 
 #undef FSR_SENSE_INDEX_ENTRY
 
-// maps the FSR row/col being sensed to a particular ADC unit and channel
-
 static constexpr uint8_t NUM_FSR_DRIVES = 16;
 static constexpr uint8_t NUM_FSR_SENSES = 16;
 
+// UART0 is reserved for WiReSens data; route the system console through USB
+// Serial/JTAG so logs cannot corrupt the binary stream.
 static constexpr gpio_num_t UART0_TX_GPIO = GPIO_NUM_43;
 static constexpr gpio_num_t UART0_RX_GPIO = GPIO_NUM_44;
