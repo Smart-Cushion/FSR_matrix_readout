@@ -6,10 +6,10 @@
 #include <stdint.h>
 
 static const gpio_num_t FSR_DRIVE_ADDR_GPIOS[] = {
-    GPIO_NUM_2,  // DRIVE_A0
-    GPIO_NUM_42, // DRIVE_A1
-    GPIO_NUM_41, // DRIVE_A2
-    GPIO_NUM_40, // DRIVE_A3
+    GPIO_NUM_42, // DRIVE_A0
+    GPIO_NUM_41, // DRIVE_A1
+    GPIO_NUM_40, // DRIVE_A2
+    GPIO_NUM_39, // DRIVE_A3
 };
 
 static constexpr size_t NUM_FSR_DRIVE_ADDR_GPIOS =
