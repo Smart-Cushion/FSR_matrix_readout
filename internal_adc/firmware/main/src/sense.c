@@ -6,6 +6,7 @@
 #include "soc/soc_caps.h"
 #include <stddef.h>
 #include <stdint.h>
+#include <sys/param.h>
 
 static constexpr uint8_t MAX_SUPERSAMPLE_CNT = 32;
 static constexpr size_t MAX_FRAME_SAMPLE_CNT =
@@ -15,6 +16,7 @@ static constexpr size_t MAX_FRAME_BUF_SIZE =
 static constexpr size_t MAX_STORE_BUF_SIZE = MAX_FRAME_BUF_SIZE * 2;
 static constexpr uint8_t MAX_DRAIN_READ_CNT = 4;
 static constexpr uint32_t READ_TIMEOUT_MULTIPLIER = 10;
+static constexpr uint32_t MIN_READ_TIMEOUT_MS = 50;
 static uint8_t adc_dma_buf[MAX_STORE_BUF_SIZE];
 static size_t used_frame_sample_cnt = 0;
 static size_t used_frame_buf_size = 0;
@@ -67,11 +69,13 @@ void fsr_sense_init(fsr_sense_cfg_t cfg) {
     discard_buf_size =
         cfg.discard_rounds * NUM_FSR_SENSES * SOC_ADC_DIGI_RESULT_BYTES;
 
-    // Multiply the theoretical frame time by a configurable margin, then
-    // round up to a whole millisecond.
-    read_timeout_ms = (used_frame_sample_cnt * 1000 * READ_TIMEOUT_MULTIPLIER +
-                       cfg.sample_freq_hz - 1) /
-                      cfg.sample_freq_hz;
+    // Multiply the theoretical frame time by a configurable margin, round up
+    // to a whole millisecond, and allow at least several FreeRTOS ticks.
+    uint32_t theoretical_timeout_ms =
+        (used_frame_sample_cnt * 1000 * READ_TIMEOUT_MULTIPLIER +
+         cfg.sample_freq_hz - 1) /
+        cfg.sample_freq_hz;
+    read_timeout_ms = MAX(theoretical_timeout_ms, MIN_READ_TIMEOUT_MS);
 
     adc_continuous_handle_cfg_t adc_handle_cfg = {
         .max_store_buf_size = MAX_STORE_BUF_SIZE,
