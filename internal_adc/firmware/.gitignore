@@ -4,3 +4,5 @@ sdkconfig.old
 
 .vscode/*.json
 !.vscode/*.template.json
+.agents
+.codex

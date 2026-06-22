@@ -1,0 +1,19 @@
+menu "FSR Matrix Readout"
+
+    choice FSR_WIRESENS_TRANSPORT
+        prompt "WiReSens transport"
+        default FSR_WIRESENS_TRANSPORT_UART
+
+        config FSR_WIRESENS_TRANSPORT_UART
+            bool "UART"
+            depends on SOC_UART_SUPPORTED
+            depends on !ESP_CONSOLE_UART || ESP_CONSOLE_UART_NUM != 0
+
+        config FSR_WIRESENS_TRANSPORT_USB_SERIAL_JTAG
+            bool "USB Serial/JTAG"
+            depends on SOC_USB_SERIAL_JTAG_SUPPORTED
+            depends on !ESP_CONSOLE_USB_SERIAL_JTAG
+            depends on !ESP_CONSOLE_SECONDARY_USB_SERIAL_JTAG
+    endchoice
+
+endmenu

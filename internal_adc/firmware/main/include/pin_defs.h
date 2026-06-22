@@ -74,7 +74,7 @@ static const int8_t
 static constexpr uint8_t NUM_FSR_DRIVES = 16;
 static constexpr uint8_t NUM_FSR_SENSES = 16;
 
-// UART0 is reserved for WiReSens data; route the system console through USB
-// Serial/JTAG so logs cannot corrupt the binary stream.
+// Board UART defaults. Depending on Kconfig, UART0 carries either WiReSens data
+// or logs; the two streams are never assigned to the same transport.
 static constexpr gpio_num_t UART0_TX_GPIO = GPIO_NUM_43;
 static constexpr gpio_num_t UART0_RX_GPIO = GPIO_NUM_44;
