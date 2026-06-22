@@ -1,5 +1,10 @@
 #include "wiresens.h"
+#ifdef CONFIG_FSR_WIRESENS_TRANSPORT_USB_SERIAL_JTAG
 #include "driver/usb_serial_jtag.h"
+#endif
+#ifdef CONFIG_FSR_WIRESENS_TRANSPORT_UART
+#include "driver/uart.h"
+#endif
 #include "esp_check.h"
 #include "esp_err.h"
 #include "pin_defs.h"
