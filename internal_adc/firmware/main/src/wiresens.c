@@ -1,11 +1,28 @@
 #include "wiresens.h"
+#ifdef CONFIG_FSR_WIRESENS_TRANSPORT_USB_SERIAL_JTAG
+#include "driver/usb_serial_jtag.h"
+#endif
+#ifdef CONFIG_FSR_WIRESENS_TRANSPORT_UART
 #include "driver/uart.h"
+#endif
 #include "esp_check.h"
 #include "esp_err.h"
 #include "pin_defs.h"
+#include "sdkconfig.h"
 #include <stddef.h>
 #include <stdint.h>
 #include <string.h>
+
+#if defined(CONFIG_FSR_WIRESENS_TRANSPORT_USB_SERIAL_JTAG) &&                  \
+    (defined(CONFIG_ESP_CONSOLE_USB_SERIAL_JTAG) ||                            \
+     defined(CONFIG_ESP_CONSOLE_SECONDARY_USB_SERIAL_JTAG))
+#error "USB Serial/JTAG cannot carry both WiReSens data and console logs"
+#endif
+
+#if defined(CONFIG_FSR_WIRESENS_TRANSPORT_UART) &&                             \
+    defined(CONFIG_ESP_CONSOLE_UART) && CONFIG_ESP_CONSOLE_UART_NUM == 0
+#error "UART0 cannot carry both WiReSens data and console logs"
+#endif
 
 // WiReSens serial packet format:
 //
@@ -28,6 +45,9 @@ static constexpr size_t WIRESENS_START_IDX_SIZE = sizeof(uint16_t);
 static constexpr size_t WIRESENS_READING_SIZE = sizeof(uint16_t);
 static constexpr size_t WIRESENS_PACKET_NUMBER_SIZE = sizeof(uint32_t);
 static constexpr size_t WIRESENS_DELIMITER_SIZE = 2;
+#if defined(CONFIG_FSR_WIRESENS_TRANSPORT_USB_SERIAL_JTAG)
+static constexpr size_t WIRESENS_USB_RX_BUFFER_SIZE = 256;
+#endif
 
 static constexpr size_t WIRESENS_FRAME_NODE_CNT =
     NUM_FSR_DRIVES * NUM_FSR_SENSES;
@@ -127,6 +147,7 @@ void fsr_wiresens_init(fsr_wiresens_cfg_t cfg) {
             : ESP_ERR_INVALID_ARG
     );
 
+#if defined(CONFIG_FSR_WIRESENS_TRANSPORT_UART)
     uart_config_t uart_cfg = {
         .baud_rate = cfg.baud_rate,
         .data_bits = UART_DATA_8_BITS,
@@ -144,6 +165,13 @@ void fsr_wiresens_init(fsr_wiresens_cfg_t cfg) {
         cfg.uart_num, cfg.tx_gpio, cfg.rx_gpio, UART_PIN_NO_CHANGE,
         UART_PIN_NO_CHANGE
     ));
+#else
+    usb_serial_jtag_driver_config_t usb_cfg = {
+        .tx_buffer_size = cfg.tx_buffer_size,
+        .rx_buffer_size = WIRESENS_USB_RX_BUFFER_SIZE,
+    };
+    ESP_ERROR_CHECK(usb_serial_jtag_driver_install(&usb_cfg));
+#endif
 
     wiresens_cfg = cfg;
     packet_number = 0;
@@ -173,13 +201,27 @@ esp_err_t fsr_wiresens_send_frame(const uint16_t *frame) {
             "wiresens", "failed to pack WiReSens packet"
         );
 
+#if defined(CONFIG_FSR_WIRESENS_TRANSPORT_UART)
         int written =
             uart_write_bytes(wiresens_cfg.uart_num, tx_packet_buf, packet_size);
+#else
+        int written =
+            usb_serial_jtag_write_bytes(tx_packet_buf, packet_size, 0);
+#endif
+        // Advance for every generated packet so a receiver can detect packets
+        // dropped while the host is not accepting USB data.
+        packet_number++;
+
+#if defined(CONFIG_FSR_WIRESENS_TRANSPORT_USB_SERIAL_JTAG)
+        if (written == 0) {
+            // Backpressure is expected in non-blocking mode. Drop this packet
+            // and keep sampling instead of turning it into a fatal error.
+            continue;
+        }
+#endif
         if (written != (int)packet_size) {
             return ESP_FAIL;
         }
-
-        packet_number++;
     }
 
     return ESP_OK;
