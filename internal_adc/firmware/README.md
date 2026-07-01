@@ -39,13 +39,13 @@ Configure the interfaces with `idf.py menuconfig`, (you can also press `/` to se
 - Secondary console: `(Top) > Component config > ESP-STDIO > Channel for console secondary output`
 
 To disable console output, select **None** for the primary console and
-**No secondary console** for the secondary console. 
+**No secondary console** for the secondary console.
 
 The project Kconfig selects **UART** as the default WiReSens interface.
 
 Unavailable transport choices are hidden when they conflict with the current
 console configuration. Configure the console first, then select the WiReSens
-transport. 
+transport.
 
 Only one application can normally open a serial port at a time.
 Stop VS Code Serial Monitor or any other terminal connected to the data port before starting the WiReSens backend.

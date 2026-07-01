@@ -110,6 +110,7 @@ void fsr_sense_read_frame(uint16_t *buf) {
 
     ESP_ERROR_CHECK(adc_continuous_start(handle));
 
+    // uint32_t drive = 0; drive < NUM_FSR_DRIVES; drive++
     for (uint32_t drive = 0; drive < NUM_FSR_DRIVES; drive++) {
         uint32_t sample_sum[NUM_FSR_SENSES] = {};
         uint16_t sample_cnt[NUM_FSR_SENSES] = {};
