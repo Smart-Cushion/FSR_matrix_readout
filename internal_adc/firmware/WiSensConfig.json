@@ -3,7 +3,7 @@
         {
             "id": 1,
             "protocol": "serial",
-            "serialPort": "COM3",
+            "serialPort": "COM15",
             "deviceName": "Esp1",
             "startCoord": [
                 0,

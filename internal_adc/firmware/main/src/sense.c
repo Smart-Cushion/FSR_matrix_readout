@@ -1,61 +1,28 @@
 #include "sense.h"
 #include "decoder.h"
-#include "esp_adc/adc_continuous.h"
+#include "esp_adc/adc_oneshot.h"
 #include "esp_err.h"
+#include "esp_rom_sys.h"
 #include "pin_defs.h"
 #include "soc/soc_caps.h"
 #include <stddef.h>
 #include <stdint.h>
-#include <sys/param.h>
 
 static constexpr uint8_t MAX_SUPERSAMPLE_CNT = 32;
-static constexpr size_t MAX_FRAME_SAMPLE_CNT =
-    NUM_FSR_SENSES * MAX_SUPERSAMPLE_CNT;
-static constexpr size_t MAX_FRAME_BUF_SIZE =
-    MAX_FRAME_SAMPLE_CNT * SOC_ADC_DIGI_RESULT_BYTES;
-static constexpr size_t MAX_STORE_BUF_SIZE = MAX_FRAME_BUF_SIZE * 2;
-static constexpr uint8_t MAX_DRAIN_READ_CNT = 4;
-static constexpr uint32_t READ_TIMEOUT_MULTIPLIER = 10;
-static constexpr uint32_t MIN_READ_TIMEOUT_MS = 50;
-static uint8_t adc_dma_buf[MAX_STORE_BUF_SIZE];
-static size_t used_frame_sample_cnt = 0;
-static size_t used_frame_buf_size = 0;
-static size_t discard_buf_size = 0;
-static uint32_t read_timeout_ms = 0;
 
-static adc_continuous_handle_t handle = nullptr;
+// One oneshot handle per ADC peripheral present in FSR_SENSE_ADC_MAP. This
+// board spreads the 16 sense columns across ADC1 (10 channels) and ADC2 (6).
+static adc_oneshot_unit_handle_t adc_handles[SOC_ADC_PERIPH_NUM] = {};
+static uint8_t used_supersample_cnt = 1;
+static uint32_t settle_us = 0;
 
-static void fsr_sense_drain_pool() {
-    uint32_t read_size = 0;
-
-    // attempt to drain the DMA buffer, but return after a maxium number of
-    // reads to avoid blocking indefinitely if the driver fails
-    for (uint8_t i = 0; i < MAX_DRAIN_READ_CNT; i++) {
-        if (adc_continuous_read(
-                handle, adc_dma_buf, MAX_STORE_BUF_SIZE, &read_size, 0
-            ) != ESP_OK) {
-            break;
-        }
-    }
-}
-
-static void fsr_sense_discard_samples() {
-    uint32_t read_size = 0;
-    size_t discarded_size = 0;
-
-    while (discarded_size < discard_buf_size) {
-        size_t remaining_size = discard_buf_size - discarded_size;
-        uint32_t read_buf_size = remaining_size < MAX_STORE_BUF_SIZE
-                                     ? remaining_size
-                                     : MAX_STORE_BUF_SIZE;
-
-        ESP_ERROR_CHECK(adc_continuous_read(
-            handle, adc_dma_buf, read_buf_size, &read_size, read_timeout_ms
-        ));
-        discarded_size += read_size;
-    }
-}
-
+// Read the sense columns one channel at a time with adc_oneshot instead of the
+// multi-channel continuous DMA path. The ESP32-S3 continuous driver only
+// samples the first ~2 pattern channels reliably (esp-idf #10636), and its
+// ADC2 DMA has a hardware errata (ADC-183), which left 15 of 16 columns empty.
+// Oneshot drives each channel individually from the CPU, so both ADC units and
+// every channel read back correctly. This matches the upstream WiReSens
+// firmware, which samples each point with a per-point oneshot read.
 void fsr_sense_init(fsr_sense_cfg_t cfg) {
     ESP_ERROR_CHECK(
         cfg.supersample_cnt > 0 && cfg.supersample_cnt <= MAX_SUPERSAMPLE_CNT
@@ -64,95 +31,56 @@ void fsr_sense_init(fsr_sense_cfg_t cfg) {
     );
     ESP_ERROR_CHECK(cfg.sample_freq_hz > 0 ? ESP_OK : ESP_ERR_INVALID_ARG);
 
-    used_frame_sample_cnt = cfg.supersample_cnt * NUM_FSR_SENSES;
-    used_frame_buf_size = used_frame_sample_cnt * SOC_ADC_DIGI_RESULT_BYTES;
-    discard_buf_size =
-        cfg.discard_rounds * NUM_FSR_SENSES * SOC_ADC_DIGI_RESULT_BYTES;
+    used_supersample_cnt = cfg.supersample_cnt;
 
-    // Multiply the theoretical frame time by a configurable margin, round up
-    // to a whole millisecond, and allow at least several FreeRTOS ticks.
-    uint32_t theoretical_timeout_ms =
-        (used_frame_sample_cnt * 1000 * READ_TIMEOUT_MULTIPLIER +
-         cfg.sample_freq_hz - 1) /
-        cfg.sample_freq_hz;
-    read_timeout_ms = MAX(theoretical_timeout_ms, MIN_READ_TIMEOUT_MS);
+    // Preserve the analog settling budget the DMA path spent discarding scan
+    // rounds: discard_rounds complete 16-sense scans at sample_freq_hz, applied
+    // here as a fixed busy-wait after each decoder (drive row) switch.
+    settle_us = (uint32_t)((uint64_t)cfg.discard_rounds * NUM_FSR_SENSES *
+                           1000000ULL / cfg.sample_freq_hz);
 
-    adc_continuous_handle_cfg_t adc_handle_cfg = {
-        .max_store_buf_size = MAX_STORE_BUF_SIZE,
-        .conv_frame_size = used_frame_buf_size,
-    };
-    ESP_ERROR_CHECK(adc_continuous_new_handle(&adc_handle_cfg, &handle));
-
-    adc_digi_pattern_config_t pattern_cfg[NUM_FSR_SENSES] = {};
     for (size_t i = 0; i < NUM_FSR_SENSES; i++) {
-        pattern_cfg[i].atten = ADC_ATTEN_DB_12;
-        pattern_cfg[i].channel = FSR_SENSE_ADC_MAP[i].channel;
-        pattern_cfg[i].unit = FSR_SENSE_ADC_MAP[i].unit;
-        pattern_cfg[i].bit_width = cfg.bit_width;
-    }
+        adc_unit_t unit = FSR_SENSE_ADC_MAP[i].unit;
 
-    // This board uses ADC2 channels. On ESP32-S3, forcing ADC2 continuous DMA
-    // with CONFIG_ADC_CONTINUOUS_FORCE_USE_ADC2_ON_C3_S3 only bypasses the
-    // driver's ADC1-only guard; it does not resolve the ADC2 hardware errata.
-    adc_continuous_config_t adc_cfg = {
-        .pattern_num = NUM_FSR_SENSES,
-        .adc_pattern = pattern_cfg,
-        .sample_freq_hz = cfg.sample_freq_hz,
-        .conv_mode = ADC_CONV_ALTER_UNIT,
-    };
-    ESP_ERROR_CHECK(adc_continuous_config(handle, &adc_cfg));
+        if (adc_handles[unit] == nullptr) {
+            adc_oneshot_unit_init_cfg_t unit_cfg = {
+                .unit_id = unit,
+            };
+            ESP_ERROR_CHECK(adc_oneshot_new_unit(&unit_cfg, &adc_handles[unit]));
+        }
+
+        adc_oneshot_chan_cfg_t chan_cfg = {
+            .atten = ADC_ATTEN_DB_12,
+            .bitwidth = (adc_bitwidth_t)cfg.bit_width,
+        };
+        ESP_ERROR_CHECK(adc_oneshot_config_channel(
+            adc_handles[unit], FSR_SENSE_ADC_MAP[i].channel, &chan_cfg
+        ));
+    }
 }
 
 void fsr_sense_read_frame(uint16_t *buf) {
-    static adc_continuous_data_t parsed_data[MAX_FRAME_SAMPLE_CNT] = {};
-    // This maximum-sized buffer exceeds the main task stack, so it is static.
-    // The shared buffer also makes this module non-reentrant.
-
-    ESP_ERROR_CHECK(adc_continuous_start(handle));
-
-    // uint32_t drive = 0; drive < NUM_FSR_DRIVES; drive++
     for (uint32_t drive = 0; drive < NUM_FSR_DRIVES; drive++) {
-        uint32_t sample_sum[NUM_FSR_SENSES] = {};
-        uint16_t sample_cnt[NUM_FSR_SENSES] = {};
-        uint32_t read_size = 0;
-        uint32_t parsed_sample_cnt = 0;
-
-        // Remove queued samples from the previous drive, switch the decoder,
-        // then discard complete scan rounds captured while the analog path
-        // settles.
-        fsr_sense_drain_pool();
         fsr_drive_decoder_write(drive);
-        fsr_sense_discard_samples();
 
-        ESP_ERROR_CHECK(adc_continuous_read(
-            handle, adc_dma_buf, used_frame_buf_size, &read_size,
-            read_timeout_ms
-        ));
-        ESP_ERROR_CHECK(adc_continuous_parse_data(
-            handle, adc_dma_buf, read_size, parsed_data, &parsed_sample_cnt
-        ));
-
-        for (uint32_t i = 0; i < parsed_sample_cnt; i++) {
-            if (!parsed_data[i].valid) {
-                continue;
-            }
-
-            int8_t sense = FSR_SENSE_INDEX_LUT[parsed_data[i].unit]
-                                              [parsed_data[i].channel];
-            if (sense < 0) {
-                continue;
-            }
-
-            sample_sum[sense] += parsed_data[i].raw_data;
-            sample_cnt[sense]++;
+        if (settle_us > 0) {
+            esp_rom_delay_us(settle_us);
         }
 
         for (uint8_t sense = 0; sense < NUM_FSR_SENSES; sense++) {
-            uint32_t sum = sample_sum[sense];
-            uint16_t cnt = sample_cnt[sense];
-            buf[drive * NUM_FSR_SENSES + sense] = cnt > 0 ? sum / cnt : 0;
+            adc_oneshot_unit_handle_t handle =
+                adc_handles[FSR_SENSE_ADC_MAP[sense].unit];
+            adc_channel_t channel = FSR_SENSE_ADC_MAP[sense].channel;
+
+            uint32_t sum = 0;
+            for (uint8_t s = 0; s < used_supersample_cnt; s++) {
+                int raw = 0;
+                ESP_ERROR_CHECK(adc_oneshot_read(handle, channel, &raw));
+                sum += (uint32_t)raw;
+            }
+
+            buf[drive * NUM_FSR_SENSES + sense] =
+                (uint16_t)(sum / used_supersample_cnt);
         }
     }
-
-    ESP_ERROR_CHECK(adc_continuous_stop(handle));
 }
